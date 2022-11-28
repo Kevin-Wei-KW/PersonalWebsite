@@ -1,7 +1,7 @@
 import React from "react";
 
-import NavBar from "./compoennts/NavBar.js";
-import Front from "./compoennts/Front.js";
+import NavBar from "./components/NavBar.js";
+import Front from "./components/Front.js";
 
 import "./style.css";
 
