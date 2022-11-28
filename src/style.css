@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    background-color: black;
 }
 
 .NavBar {
@@ -8,13 +9,23 @@ html, body {
     justify-content: flex-start;
     align-items: center;
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+
+    white-space: nowrap;
+
+    min-width: 850px;
+    height: 50px;
+
+    background-color:black;
+    color: beige;
+
+    border-radius: 20px;
 }
 
-.NavBar li{
-    display: inline-block;
+.NavBar:hover {
+    background-color: rgb(50, 50, 50);
 }
 
 .NavBar img{
@@ -22,5 +33,16 @@ html, body {
     width: 50px;
     object-fit: cover;
     border-radius: 25px;
+    margin-right: 15px;
 }
+
+.NavBar .blank {
+    width: 40%;
+}
+
+.NavBar li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
 
