@@ -3,6 +3,10 @@ html, body {
     background-color: black;
 }
 
+h1 {
+    color: white;
+}
+
 .NavBar {
     display: flex;
     flex-direction: row;
@@ -35,6 +39,23 @@ html, body {
     border-radius: 25px;
     margin-right: 15px;
 }
+
+.NavBar h3{
+    margin-right: 50px;
+}
+
+.email {
+    padding: 2px;
+}
+
+.NavBar a{
+    padding: 2px;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
 
 .NavBar .blank {
     width: 40%;
