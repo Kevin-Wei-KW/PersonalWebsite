@@ -1,11 +1,11 @@
 html, body {
     margin: 0;
     background-color: black;
-}
-
-h1 {
+    height: 100%;
     color: white;
 }
+
+/* NAVBAR */
 
 .NavBar {
     display: flex;
@@ -67,3 +67,52 @@ a:hover {
 }
 
 
+/* PROFILE */
+
+.Profile {
+    min-height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.BigName {
+    /* margin: 20%; */
+    margin-top: 20vh;
+    width: 50vw;
+}
+
+.Profile h1 {
+    font-size: 50px;
+    margin:20px;
+    text-align: center;
+    /* text-indent: 20%; */
+}
+
+
+.shadow
+{
+    display:block;
+    position:relative;
+}
+
+.shadow:before
+{
+    display:block;
+    content:'';
+    position:absolute;
+    width:100%;
+    height:70vh;
+    -moz-box-shadow:inset 0px 0px 6px 6px rgb(0, 0, 0);
+    -webkit-box-shadow:inset 0px 0px 6px 6px rgb(0, 0, 0);
+    box-shadow:inset 0px 0px 6px 6px rgb(0, 0, 0);
+}
+
+.Profile .FormalPic {
+    background: url(./images/formal_pic.jpg) left top no-repeat;
+
+    width: auto;
+    height: 70vh;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}

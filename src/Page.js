@@ -3,19 +3,13 @@ import {Routes, Route, useNavigate} from 'react-router-dom';
 
 import NavBar from "./components/NavBar.js";
 import Front from "./components/Front.js";
-import Resume from "./components/Resume.js";
+import Footer from "./components/Footer.js";
 
 
 import "./style.css";
 
 export default function Page() {
     let [pageSelector, setPageSelector] = useState();
-    // const navigate = useNavigate();
-
-    // const navigateToResume = () => {
-    //     navigate('/resume');
-    // };
-
 
     return (
         <div className="MainContent">
@@ -26,10 +20,8 @@ export default function Page() {
                 page = {pageSelector}
             />
 
+            <Footer/>
 
-            {/* <Routes>
-                <Route path='/resume' element={Resume}/>
-            </Routes> */}
         </div>
     )
 }
