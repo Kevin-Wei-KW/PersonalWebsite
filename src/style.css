@@ -1,10 +1,15 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@font-face {
+    font-family: GoogleFont;
+    src: url(./fonts/Inter-VariableFont_slnt,wght.ttf);
+}
 
 html, body {
     margin: 0;
     background-color: black;
     height: 100%;
     color: white;
+    font-family: GoogleFont;
 }
 
 .Front {
@@ -59,10 +64,15 @@ html, body {
     padding: 2px;
 }
 
+.NavBar a:link {
+    text-decoration: none;
+    color: beige;
+}
+
 .NavBar a:hover {
     cursor:pointer;
-    background-color: black;
     border-radius: 5px;
+    box-shadow: 0 0 10px 5px black !important;
 }
 
 .NavBar .blank {
@@ -149,7 +159,8 @@ html, body {
 
 .shadow:before
 {
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 80px;
     display:block;
     content:'';
     position:absolute;
@@ -162,7 +173,8 @@ html, body {
 
 .Profile .FormalPic {
     /* background: url(./images/formal_pic.jpg) left top no-repeat; */
-    margin-left: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
     width: auto;
     height: 60vh;
     /* position: absolute; */

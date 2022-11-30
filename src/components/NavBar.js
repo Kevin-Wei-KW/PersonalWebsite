@@ -27,14 +27,14 @@ export default function NavBar(props) {
                 <img src={pfp} alt="pfp"/>
 
             <h3><a onClick={()=>props.setPage("Profile")}>Kevin Wei</a></h3>
-            <h3>kevin.wei20622@gmail.com</h3>
+            <a href="mailto: kevin.wei20622@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> kevin.wei20622@gmail.com</a>
 
             <div className="blank"></div>
 
-            <li><a onClick={()=>props.setPage("Resume")} style={{backgroundColor: checkActive("Resume")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Resume</a></li>
-            <li><a onClick={()=>props.setPage("Project")} style={{backgroundColor: checkActive("Project")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Project</a></li>
-            <li><a onClick={()=>props.setPage("Education")} style={{backgroundColor: checkActive("Education")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Education</a></li>
-            <li><a onClick={()=>props.setPage("Skills")} style={{backgroundColor: checkActive("Skills")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Skills</a></li>
+            <li><a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Resume</a></li>
+            <li><a onClick={()=>props.setPage("Project")} style={{boxShadow: checkActive("Project")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Project</a></li>
+            <li><a onClick={()=>props.setPage("Education")} style={{boxShadow: checkActive("Education")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Education</a></li>
+            <li><a onClick={()=>props.setPage("Skills")} style={{boxShadow: checkActive("Skills")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Skills</a></li>
 
             {/* <button>Switch</button> */}
 
