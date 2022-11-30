@@ -14,10 +14,10 @@ export default function NavBar(props) {
 
     return(
         <div className="NavBar">
-            <a><img src={pfp} alt="pfp"/></a>
+                <img src={pfp} alt="pfp"/>
 
             <h3><a onClick={()=>props.setPage("Profile")}>Kevin Wei</a></h3>
-            <h3><a>kevin.wei20622@gmail.com</a></h3>
+            <h3>kevin.wei20622@gmail.com</h3>
 
             <div className="blank"></div>
 
