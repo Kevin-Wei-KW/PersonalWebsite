@@ -19,8 +19,8 @@ export default function Profile() {
                 </p>
 
                 <ul>
-                    <li><a href="GitHub"><i className="fa fa-github"></i></a></li>
-                    <li><a href="LinkedIn"><i className="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://github.com/kevin-wei-kw"><i className="fa fa-github"></i></a></li>
+                    <li><a href="https://linkedin.com/in/kevin-wei-kw"><i className="fa fa-linkedin-square"></i></a></li>
                 </ul>
             </div>
 

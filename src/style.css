@@ -63,7 +63,6 @@ html, body {
     cursor:pointer;
     background-color: black;
     border-radius: 5px;
-
 }
 
 
@@ -128,10 +127,15 @@ html, body {
     margin-right: 40px;
 }
 
-.NameInfo a:link {
+.NameInfo a:link, a:visited {
     text-decoration: none;
     color: white;
 }
+
+.NameInfo a:hover {
+    color: rgb(225, 225, 163);
+}
+
 .NameInfo i {
     font-size: 30px;
 }
@@ -179,6 +183,15 @@ html, body {
     border: 10px solid rgb(25, 25, 25);
     border-radius: 5px;
 
+}
+
+
+/* Project */
+
+.Project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
