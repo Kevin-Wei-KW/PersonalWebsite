@@ -6,6 +6,10 @@ export default function Project() {
     return(
         <div className="Project">
             <h1>Project</h1>
+
+            <div className="SimpleShop"></div>
+            <div className="MathConnect"></div>
+            <div className="ECommerceWebScraper"></div>
         </div>
     )
 }

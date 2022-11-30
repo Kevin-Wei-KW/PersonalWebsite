@@ -12,6 +12,16 @@ export default function NavBar(props) {
     //     navigate('/resume');
     // };
 
+    function checkActive(name) {
+        if(props.page === name) {
+            console.log("CHANGED");
+            return true;
+        } else {
+            console.log("NOT CHANGED");
+            return false;
+        }
+    }
+
     return(
         <div className="NavBar">
                 <img src={pfp} alt="pfp"/>
@@ -21,10 +31,10 @@ export default function NavBar(props) {
 
             <div className="blank"></div>
 
-            <li><a onClick={()=>props.setPage("Resume")}>Resume</a></li>
-            <li><a onClick={()=>props.setPage("Project")}>Project</a></li>
-            <li><a onClick={()=>props.setPage("Education")}>Education</a></li>
-            <li><a onClick={()=>props.setPage("Skills")}>Skills</a></li>
+            <li><a onClick={()=>props.setPage("Resume")} style={{backgroundColor: checkActive("Resume")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Resume</a></li>
+            <li><a onClick={()=>props.setPage("Project")} style={{backgroundColor: checkActive("Project")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Project</a></li>
+            <li><a onClick={()=>props.setPage("Education")} style={{backgroundColor: checkActive("Education")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Education</a></li>
+            <li><a onClick={()=>props.setPage("Skills")} style={{backgroundColor: checkActive("Skills")?"rgb(50, 50, 50)":"", borderRadius: "5px"}}>Skills</a></li>
 
             {/* <button>Switch</button> */}
 

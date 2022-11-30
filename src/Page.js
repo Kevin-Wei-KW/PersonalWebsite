@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Routes, Route, useNavigate} from 'react-router-dom';
+// import {Routes, Route, useNavigate} from 'react-router-dom';
 
 import NavBar from "./components/NavBar.js";
 import Front from "./components/Front.js";
@@ -14,6 +14,7 @@ export default function Page() {
     return (
         <div className="MainContent">
             <NavBar
+                page = {pageSelector}
                 setPage={setPageSelector}
             />
             <Front
