@@ -162,7 +162,7 @@ html, body {
 {
     display:block;
     position:relative;
-    filter: brightness(90%);
+    /* filter: brightness(90%); */
 }
 
 .shadow:before
@@ -255,9 +255,45 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px 50px;
 }
 
+.EducationContainer {
+    border-bottom: 2px solid beige;
+    padding: 20px;
+    min-width: 800px;
+}
 
+.EducationContainer h4, h5 {
+    margin: 0;
+}
+
+.EducationInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+
+.EducationInfo .sub {
+    margin-left: 20px;
+}
+
+.EducationInfo img {
+    margin-left: 50px;
+}
+
+.UwLogo {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 0 5px 10px rgb(50, 50, 50);
+    border-radius: 125px;
+}
+
+.RhsLogo {
+    height: 250px;
+    width: 300px;
+}
 
 /* FOOTER */
 
