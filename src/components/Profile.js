@@ -12,7 +12,7 @@ export default function Profile() {
                 <p>
                     Hi there! I am a Software Developer 
                     currently studying Computer Engineering 
-                    at University of Waterloo. 
+                    at the University of Waterloo. 
                     <br/><br/>
                     During my free time, I enjoy exploring a variety 
                     of programming languages and tech stacks.
