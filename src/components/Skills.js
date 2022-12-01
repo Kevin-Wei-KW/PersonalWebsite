@@ -96,6 +96,39 @@ export default function Skills() {
                     level = {80}
                 />
 
+            </div>
+
+            <h1>Miscellaneous Skills</h1>
+            <div className="SkillSection">
+
+                <SkillItem
+                    name = "Typing"
+                    level = {90}
+                />
+                <SkillItem
+                    name = "Ping Pong"
+                    level = {80}
+                />
+                <SkillItem
+                    name = "Badminton"
+                    level = {60}
+                />
+                <SkillItem
+                    name = "Googling"
+                    level = {100}
+                />
+                <SkillItem
+                    name = "Drawing"
+                    level = {10}
+                />
+                <SkillItem
+                    name = "Cooking"
+                    level = {40}
+                />
+                <SkillItem
+                    name = "Gaming"
+                    level = {60}
+                />
 
             </div>
 
