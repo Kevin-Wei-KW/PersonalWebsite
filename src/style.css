@@ -30,7 +30,7 @@ html, body {
 
     white-space: nowrap;
 
-    min-width: 850px;
+    min-width: 950px;
     height: 50px;
 
     background-color:black;
@@ -60,7 +60,7 @@ html, body {
 }
 
 .NavBar h3{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .email {
@@ -201,7 +201,7 @@ html, body {
 
 .Resume iframe {
     height: 100vh;
-    width: 50vw;    
+    width: 80vw;    
     border: 10px solid rgb(25, 25, 25);
     border-radius: 5px;
 
@@ -221,6 +221,10 @@ html, body {
     border-bottom: 2px solid beige;
     padding: 20px;
     min-width: 800px;
+}
+
+.ProjectContainer a:link {
+    color: beige;
 }
 
 .ProjectInfo {
@@ -262,6 +266,10 @@ html, body {
     border-bottom: 2px solid beige;
     padding: 20px;
     min-width: 800px;
+}
+
+.EducationContainer a:link {
+    color: beige;
 }
 
 .EducationContainer h4, h5 {
