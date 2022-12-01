@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PersonalWebsite/static/css/main.8d21fc36.css",
+    "main.js": "/PersonalWebsite/static/js/main.ff6d8e83.js",
+    "static/media/math_connect.gif": "/PersonalWebsite/static/media/math_connect.23286ca732bb013f0845.gif",
+    "static/media/ecommerce_web_scraper.gif": "/PersonalWebsite/static/media/ecommerce_web_scraper.3c5e8a6e0d2d332c8f60.gif",
+    "static/media/formal_pic.jpg": "/PersonalWebsite/static/media/formal_pic.810c36445e98c86abf13.jpg",
+    "static/media/profile_pic.jpg": "/PersonalWebsite/static/media/profile_pic.cd4698804c9cea39792f.jpg",
+    "static/media/simple_shop.gif": "/PersonalWebsite/static/media/simple_shop.e8210cf343e84abab2a4.gif",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/PersonalWebsite/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
+    "static/media/uofw_logo.png": "/PersonalWebsite/static/media/uofw_logo.4f899ab4e8198a3ba480.png",
+    "static/media/rhs_logo.png": "/PersonalWebsite/static/media/rhs_logo.0a83fa45f0c6beb274ae.png",
+    "static/media/Coop_Resume(O).pdf": "/PersonalWebsite/static/media/Coop_Resume(O).2b05e4701f93b2009991.pdf",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.8d21fc36.css.map": "/PersonalWebsite/static/css/main.8d21fc36.css.map",
+    "main.ff6d8e83.js.map": "/PersonalWebsite/static/js/main.ff6d8e83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d21fc36.css",
+    "static/js/main.ff6d8e83.js"
+  ]
+}
