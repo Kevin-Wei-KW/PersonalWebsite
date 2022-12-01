@@ -214,7 +214,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .ProjectContainer {
@@ -228,6 +228,14 @@ html, body {
     flex-direction: row;
     justify-content:space-between;
     margin-bottom: 50px;
+}
+
+.ProjectInfo ul {
+    min-width: 300px;
+}
+
+.ProjectInfo li {
+    margin: 10px 5px;
 }
 
 .ProjectInfo img {
