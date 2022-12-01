@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.d631e89c.css",
-    "main.js": "/PersonalWebsite/static/js/main.651de889.js",
+    "main.css": "/PersonalWebsite/static/css/main.70f526e6.css",
+    "main.js": "/PersonalWebsite/static/js/main.16dd85f8.js",
     "static/media/math_connect.gif": "/PersonalWebsite/static/media/math_connect.23286ca732bb013f0845.gif",
     "static/media/ecommerce_web_scraper.gif": "/PersonalWebsite/static/media/ecommerce_web_scraper.3c5e8a6e0d2d332c8f60.gif",
     "static/media/formal_pic.jpg": "/PersonalWebsite/static/media/formal_pic.810c36445e98c86abf13.jpg",
@@ -12,11 +12,11 @@
     "static/media/rhs_logo.png": "/PersonalWebsite/static/media/rhs_logo.0a83fa45f0c6beb274ae.png",
     "static/media/Coop_Resume(O).pdf": "/PersonalWebsite/static/media/Coop_Resume(O).2b05e4701f93b2009991.pdf",
     "index.html": "/PersonalWebsite/index.html",
-    "main.d631e89c.css.map": "/PersonalWebsite/static/css/main.d631e89c.css.map",
-    "main.651de889.js.map": "/PersonalWebsite/static/js/main.651de889.js.map"
+    "main.70f526e6.css.map": "/PersonalWebsite/static/css/main.70f526e6.css.map",
+    "main.16dd85f8.js.map": "/PersonalWebsite/static/js/main.16dd85f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d631e89c.css",
-    "static/js/main.651de889.js"
+    "static/css/main.70f526e6.css",
+    "static/js/main.16dd85f8.js"
   ]
 }
