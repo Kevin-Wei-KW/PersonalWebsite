@@ -28,7 +28,8 @@ export default function Education() {
                         </li>
                         <li>ECE 198: Project Studio</li>
                         <li className="sub">
-                            Developed an automated human detector with Nucleo and IR sensor with Arduino code.
+                            Developed an automated human detector with Nucleo and IR sensor 
+                            with logic written in Arduino code.
                         </li>
                     </ul>
 
