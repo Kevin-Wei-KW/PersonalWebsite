@@ -81,7 +81,7 @@ export default function Project() {
                             <li>A web scraper for Costco developed with <b>Python</b> that dynamically displays scraped content.</li>
                             <li>Developed a web application with <b>Flask</b> that hosts the web scraper and runs Python scripts with user input.</li>
                             <li>Extracted and Parsed <b>HTML</b> from target website with <b>Beautiful Soup</b> to obtain useful information.</li>
-                            <li>Designed program to use browser automation technology with <b>Selenium</b> to bypass anti-scraping measures.</li>
+                            <li>Designed program to use browser automation technology with <b>Selenium</b> to mimic the behaviour of a real user.</li>
                         </ul>
 
                         <img src={webScraperGif}/>
