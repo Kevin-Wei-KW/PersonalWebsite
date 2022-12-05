@@ -33,7 +33,7 @@ export default function NavBar(props) {
     const [height, width] = useWindowSize();
     
     useEffect(() => {
-        setNavState(width >= 940? "NavNormal":"NavDropdown");
+        setNavState(width >= 920? "NavNormal":"NavDropdown");
     }, [width])
     
     // if(width >= 940) {
