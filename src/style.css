@@ -21,7 +21,7 @@ html, body {
 .NavBar {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -30,7 +30,7 @@ html, body {
 
     white-space: nowrap;
 
-    min-width: 950px;
+    min-width: 550px;
     height: 50px;
 
     background-color:black;
@@ -43,7 +43,7 @@ html, body {
 	position: sticky;
 	top: 0;
 
-    z-index: 100;
+    z-index: 10;
 }
 
 .NavBar:hover {
@@ -57,6 +57,16 @@ html, body {
     object-fit: cover;
     border-radius: 25px;
     margin-right: 15px;
+}
+
+.NavLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.NavLeft *{
+    display: inline-block;
 }
 
 .NavBar h3{
@@ -87,9 +97,76 @@ html, body {
     width: 40%;
 }
 
-.NavBar li{
+.Dropdown *{
     display: inline-block;
     /* margin-right: 50px; */
+}
+
+.dropbtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(50,50,50);
+}
+
+.fa {
+    color: beige;
+    margin-top: 2px;
+}
+
+.Dropdown {
+    min-width: 50px;
+    margin-left: auto;
+    /* align-self: right; */
+}
+
+.NavDropdown{
+    display: none;
+}
+
+#Expanded {
+    /* display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    right: 1px;
+    overflow: auto;
+    max-height: 150px;
+    background-color: black;
+    z-index: 10; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    position: absolute;
+    right: 2%;
+    top: 100%;
+    overflow: auto;
+    z-index: 10;
+
+    white-space: nowrap;
+
+    min-width: 300px;
+    height: 50px;
+
+    background-color:rgb(50,50,50);
+    color: beige;
+    opacity: 0.90;
+
+    border-top: 1px solid beige;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.NavDropdown:hover{
+    display: inline-block;
+    background-color: white;
 }
 
 
@@ -204,7 +281,7 @@ html, body {
     width: 80vw;    
     border: 10px solid rgb(25, 25, 25);
     border-radius: 5px;
-
+    min-width: 700px;
 }
 
 

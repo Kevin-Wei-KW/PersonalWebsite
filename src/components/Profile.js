@@ -3,7 +3,6 @@ import React from "react";
 import formalpic from "../images/formal_pic.jpg"
 
 export default function Profile() {
-    console.log("Profile Rendered");
     return(
         <div className="Profile">
             <div className="NameInfo">

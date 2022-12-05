@@ -22,7 +22,6 @@ export default function Front(props) {
         }
     }
 
-    console.log("Updated");
 
     return(
         <div className="Front">
