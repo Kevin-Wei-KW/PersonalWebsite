@@ -5,7 +5,6 @@ import mathConnectGif from "../images/math_connect.gif";
 import webScraperGif from "../images/ecommerce_web_scraper.gif";
 
 export default function Project() {
-    console.log("Project Rendered");
 
     return(
         <div className="Project">

@@ -4,7 +4,6 @@ import uwLogo from "../images/uofw_logo.png";
 import rhsLogo from "../images/rhs_logo.png";
 
 export default function Education() {
-    console.log("Education Rendered");
 
     return(
         <div className="Education">

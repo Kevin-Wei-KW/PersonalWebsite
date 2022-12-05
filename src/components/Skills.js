@@ -3,7 +3,6 @@ import React from "react";
 import SkillItem from "./SkillItem.js";
 
 export default function Skills() {
-    console.log("Skills Rendered");
 
     return(
         <div className="Skills">
