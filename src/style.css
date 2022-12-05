@@ -252,8 +252,7 @@ html, body {
     position:absolute;
     width: 43vh;
     height:60vh;
-    max-height: 400px;
-    max-width: 288px;
+    /* max-height: 500px; */
     /* -moz-box-shadow:inset 0px 0px 6px 6px rgb(61, 57, 57);
     -webkit-box-shadow:inset 0px 0px 6px 6px rgb(64, 61, 61); */
     box-shadow:inset 0px 0px 10px 10px black;
@@ -268,9 +267,7 @@ html, body {
     /* position: absolute; */
     left: 20px;
     /* filter: brightness(90%); */
-    max-height: 400px;
-    max-width: 288px;
-
+    /* max-height: 500px; */
 }
 
 
@@ -393,6 +390,7 @@ html, body {
 .UwLogo {
     height: 250px;
     width: 250px;
+    margin-right: 20px;
     box-shadow: 0 0 5px 10px rgb(50, 50, 50);
     border-radius: 125px;
 }
