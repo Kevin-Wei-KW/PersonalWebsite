@@ -36,20 +36,6 @@ export default function NavBar(props) {
         setNavState(width >= 920? "NavNormal":"NavDropdown");
     }, [width])
     
-    // if(width >= 940) {
-    //     setNavState("NavNormal");
-    //     return "NavNormal";
-    // } else {
-    //     setNavState("NavDropdown");
-    //     return "NavDropdown";
-    // }
-
-    // function handleNavType() {
-
-    //     console.log(navState);
-
-
-    // }
 
     const[dropdownState, setDropdownState] = useState("Collapsed");
     function handleHover() {

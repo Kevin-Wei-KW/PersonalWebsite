@@ -1,10 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 
 import simpleShopGif from "../images/simple_shop.gif";
 import mathConnectGif from "../images/math_connect.gif";
 import webScraperGif from "../images/ecommerce_web_scraper.gif";
 
 export default function Project() {
+
+    const [troll, setTroll] = useState(false);
+    function handleTrollClick() {
+        setTroll(true);
+    }
 
     return(
         <div className="Project">
@@ -29,7 +34,7 @@ export default function Project() {
                         <li>Designed filter to categorize and paginate items with <b>HQL queries</b>.</li>
                     </ul>
 
-                    <img src={simpleShopGif}/>
+                    <img src={simpleShopGif} alt="Simple Shop Gif"/>
                 </div>
 
 
@@ -43,7 +48,7 @@ export default function Project() {
                     </a>
                 </h1>
 
-                <h4>Technologies: Javascript, Bootstrap, HTML/CSS, SCSS</h4>
+                <h4>Technologies: JavaScript, Bootstrap, HTML/CSS, SCSS</h4>
 
                 <div className="ProjectInfo">
 
@@ -55,37 +60,53 @@ export default function Project() {
                         <li>Registered a custom domain <a href="https://mathconnect.ca/"><b>mathconnect.ca</b></a> through Replit.</li>
                     </ul>
 
-                    <img src={mathConnectGif}/>
+                    <img src={mathConnectGif} alt="Math Connect Gif"/>
                 </div>
             </div>
 
-                <div className="ProjectContainer">
+            <div className="ProjectContainer">
 
-                    <h1>
-                        <a href="https://github.com/kevin-wei-kw/ECommerceWebScraper">
-                            E-Commerce Web Scraper <i className="fa fa-github"></i>
-                        </a>
-                    </h1>
+                <h1>
+                    <a href="https://github.com/kevin-wei-kw/ECommerceWebScraper">
+                        E-Commerce Web Scraper <i className="fa fa-github"></i>
+                    </a>
+                </h1>
 
-                    <h4>Technologies: Python, Flask, Selenium, HTML/CSS, Beautiful Soup</h4>
+                <h4>Technologies: Python, Flask, Selenium, HTML/CSS, Beautiful Soup</h4>
 
-                    <div className="ProjectInfo">
+                <div className="ProjectInfo">
+                    <ul>
+                        <li>A web scraper for Costco developed with <b>Python</b> that dynamically displays scraped content.</li>
+                        <li>Developed a web application with <b>Flask</b> that hosts the web scraper and runs Python scripts with user input.</li>
+                        <li>Extracted and Parsed <b>HTML</b> from target website with <b>Beautiful Soup</b> to obtain useful information.</li>
+                        <li>Designed program to use browser automation technology with <b>Selenium</b> to mimic the behaviour of a real user.</li>
+                    </ul>
 
-                    {/* A web scraper for Costco developed with Python that dynamically displays scraped content.
-• Developed a web application with Flask that hosts the web scraper and runs Python scripts with user input.
-• Extracted and Parsed HTML from target website with Beautiful Soup to obtain useful information.
-• Designed program to use browser automation technology with Selenium to bypass anti-scraping measures. */}
+                    <img src={webScraperGif} alt="Web Scraper Gif"/>
+                </div>
+            </div>
+            <div className="ProjectContainer">
 
-                        <ul>
-                            <li>A web scraper for Costco developed with <b>Python</b> that dynamically displays scraped content.</li>
-                            <li>Developed a web application with <b>Flask</b> that hosts the web scraper and runs Python scripts with user input.</li>
-                            <li>Extracted and Parsed <b>HTML</b> from target website with <b>Beautiful Soup</b> to obtain useful information.</li>
-                            <li>Designed program to use browser automation technology with <b>Selenium</b> to mimic the behaviour of a real user.</li>
-                        </ul>
+                <h1>
+                    <a href="https://github.com/kevin-wei-kw/PersonalWebsite">
+                        Kevin's Personal Website <i className="fa fa-github"></i>
+                    </a>
+                </h1>
 
-                        <img src={webScraperGif}/>
+                <h4>Technologies: ReactJS, HTML/CSS, JavaScript, NodeJS</h4>
+
+                <div className="ProjectInfo">
+                    <ul>
+                        <li>My personal website developed with <b>React</b> to show some interesting things about me and my progress as a software developer.</li>
+                        <li>Developed a responsive NavBar to with <b>Custom Hooks</b> and <b>JavaScript</b> to respond to varying window sizes</li>
+                        <li>Configured smooth navigation with <b>React States</b> and <b>Components</b></li>
+                    </ul>
+
+                    <div className="ThisOne" onClick={handleTrollClick} style={{cursor: troll===false? "pointer":"auto"}}>
+                        {troll===false? <h1>Click to Reveal</h1>:<h1>You are looking at it :&#41;</h1>}
                     </div>
                 </div>
+            </div>
 
         </div>
     )
