@@ -66,7 +66,7 @@ export default function NavBar(props) {
                 <button className="dropbtn" onMouseOver={handleHover} style={{display: navState=="NavNormal"? "none":"inline-block"}}><i className="fa fa-caret-down"></i></button>
                 <div className={navState} id={dropdownState}>
                     <li><a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Resume</a></li>
-                    <li><a onClick={()=>props.setPage("Project")} style={{boxShadow: checkActive("Project")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Project</a></li>
+                    <li><a onClick={()=>props.setPage("Projects")} style={{boxShadow: checkActive("Projects")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Projects</a></li>
                     <li><a onClick={()=>props.setPage("Education")} style={{boxShadow: checkActive("Education")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Education</a></li>
                     <li><a onClick={()=>props.setPage("Skills")} style={{boxShadow: checkActive("Skills")?"0 0 10px 10px rgb(50, 50, 50)":"", borderRadius: "5px"}}>Skills</a></li>
                 </div>
