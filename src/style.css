@@ -16,6 +16,7 @@ html, body {
     min-width: 700px;
 }
 
+
 /* NAVBAR */
 
 .NavBar {
@@ -48,7 +49,15 @@ html, body {
 
 .NavBar:hover {
     background-color: rgb(50, 50, 50);
-    box-shadow: 0px 10px 5px 5px rgb(25, 25, 25);
+    box-shadow: 0px 5px 20px 10px rgb(100,100,100);
+}
+.DarkMainContent .NavBar:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 10px 10px 10px rgb(25,25,25);
+}
+.LightMainContent .NavBar:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 5px 30px 10px rgb(100,100,100);
 }
 
 .NavBar img{
@@ -85,14 +94,20 @@ html, body {
 
 .NavBar a:link {
     text-decoration: none;
-    color: beige;
+    color: inherit;
 }
 
 .NavBar a:hover {
     cursor:pointer;
     border-radius: 5px;
+}
+.DarkMainContent .NavBar a:hover {
     box-shadow: 0 0 10px 5px black !important;
 }
+.LightMainContent .NavBar a:hover {
+    box-shadow: 0 0 10px 5px rgb(125,125,125) !important;
+}
+
 
 .NavBar .blank {
     width: 40%;
@@ -111,7 +126,7 @@ html, body {
 }
 
 .fa {
-    color: beige;
+    color: inherit;
     margin-top: 2px;
 }
 
@@ -191,6 +206,8 @@ html, body {
     margin-top: 15vh;
     width: 50vw;
     min-width: 300px;
+
+    /* border: 0px solid black; */
 }
 
 .Profile h1 {
@@ -210,9 +227,15 @@ html, body {
 .NameInfo ul{
     list-style:none;
     padding: 0;
+    color: inherit;
+}
+.DarkMainContent .NameInfo ul{
     border-top: 2px solid beige;
     border-bottom: 2px solid beige;
-    color: white;
+}
+.LightMainContent .NameInfo ul{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .NameInfo li{
@@ -224,7 +247,7 @@ html, body {
 
 .NameInfo a:link, a:visited {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .NameInfo a:hover {
@@ -236,11 +259,10 @@ html, body {
 }
 
 
-.shadow
+/* .shadow
 {
     display:block;
     position:relative;
-    /* filter: brightness(90%); */
 }
 
 .shadow:before
@@ -252,11 +274,8 @@ html, body {
     position:absolute;
     width: 43vh;
     height:60vh;
-    /* max-height: 500px; */
-    /* -moz-box-shadow:inset 0px 0px 6px 6px rgb(61, 57, 57);
-    -webkit-box-shadow:inset 0px 0px 6px 6px rgb(64, 61, 61); */
     box-shadow:inset 0px 0px 10px 10px black;
-}
+} */
 
 .Profile .FormalPic {
     /* background: url(./images/formal_pic.jpg) left top no-repeat; */
@@ -268,6 +287,9 @@ html, body {
     left: 20px;
     /* filter: brightness(90%); */
     /* max-height: 500px; */
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgb(50,50,50);
 }
 
 
@@ -293,6 +315,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-bottom: 2px solid inherit;
     padding: 20px 50px;
 }
 
@@ -301,9 +324,14 @@ html, body {
 }
 
 .ProjectContainer {
-    border-bottom: 2px solid beige;
     padding: 20px;
     min-width: 800px;
+}
+.DarkMainContent .ProjectContainer {
+    border-bottom: 2px solid beige;
+}
+.LightMainContent .ProjectContainer {
+    border-bottom: 2px solid black;
 }
 
 .ProjectContainer a:link {
@@ -333,6 +361,9 @@ html, body {
     flex: 0 0 auto;
 
     box-shadow: 0 0 5px 15px rgb(50, 50, 50);
+} 
+.LightMainContent .ProjectInfo img {
+    box-shadow: 0 0 5px 15px rgb(100,100,100);
 }
 
 .ProjectInfo .ThisOne {
@@ -345,6 +376,10 @@ html, body {
     text-align: center;
 
     box-shadow: 0 0 5px 15px rgb(50, 50, 50);
+}
+.LightMainContent .ProjectInfo .ThisOne{
+    background-color:rgb(150,150,150);
+    box-shadow: 0 0 5px 15px rgb(150,150,150);
 }
 
 
@@ -425,8 +460,10 @@ html, body {
     display: grid;
     grid-template-columns: 20px 40px 20px;
     grid-template-rows: 150px 50px 10px 20px 20px;
-    background-color: black;
+    background-color: inherit;
     max-width: 800px;
+
+    /* box-shadow: 5px 5px 10px 10px rgb(50,50,50); */
 
 }
 
@@ -434,6 +471,9 @@ html, body {
     background-color: beige;
     grid-row: 1/3;
     grid-column: 2;
+}
+.LightMainContent .Bar {
+    background-color: black;
 }
 
 .Fill {
@@ -443,11 +483,18 @@ html, body {
     /* height: 100%; */
     z-index: 100;
 }
+.LightMainContent .Fill {
+    background-color: white;
+}
+
 
 .Space {
     border-top: 2px solid beige;
     grid-row: 4;
     grid-column: 1/4;
+}
+.LightMainContent .Space {
+    border-top: 2px solid black;
 }
 
 .Name {

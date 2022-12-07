@@ -10,15 +10,41 @@ import "./style.css";
 
 export default function Page() {
     let [pageSelector, setPageSelector] = useState();
+    let [mode, setMode] = useState("dark");
+
+    function getMainContentMode(mode) {
+        if(mode === "dark") {
+            return "DarkMainContent";
+        } else {
+            return "LightMainContent";
+        }
+    }
+    function getBackgroundColor(mode) {
+        if(mode === "dark") {
+            return "black";
+        } else {
+            return "white";
+        }
+    }
+    function getTextColor(mode) {
+        if(mode === "dark") {
+            return "white";
+        } else {
+            return "black";
+        }
+    }
 
     return (
-        <div className="MainContent">
+        <div className={getMainContentMode(mode)} style={{backgroundColor: getBackgroundColor(mode), color: getTextColor(mode) }}>
             <NavBar
                 page = {pageSelector}
-                setPage={setPageSelector}
+                setPage = {setPageSelector}
+                mode = {mode}
+                setMode = {setMode}
             />
             <Front
                 page = {pageSelector}
+                mode = {mode}
             />
 
             <Footer/>
