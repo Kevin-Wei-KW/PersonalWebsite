@@ -46,6 +46,10 @@ html, body {
 
     z-index: 10;
 }
+.LightMainContent .NavBar {
+    background-color: white;
+
+}
 
 .NavBar:hover {
     background-color: rgb(50, 50, 50);
@@ -53,11 +57,12 @@ html, body {
 }
 .DarkMainContent .NavBar:hover {
     background-color: rgb(50, 50, 50);
-    box-shadow: 0px 10px 10px 10px rgb(25,25,25);
+    box-shadow: 0px 10px 5px 10px rgb(25,25,25);
 }
 .LightMainContent .NavBar:hover {
-    background-color: rgb(50, 50, 50);
-    box-shadow: 0px 5px 30px 10px rgb(100,100,100);
+    background-color: beige;
+    /* box-shadow: 0px 5px 30px 10px rgb(100,100,100); */
+    box-shadow: 0px 5px 10px 10px rgb(200,200,200);
 }
 
 .NavBar img{
@@ -472,18 +477,19 @@ html, body {
     grid-template-rows: 150px 50px 10px 20px 20px;
     background-color: inherit;
     max-width: 800px;
-
-    /* box-shadow: 5px 5px 10px 10px rgb(50,50,50); */
-
 }
 
 .Bar {
     background-color: beige;
     grid-row: 1/3;
     grid-column: 2;
+    box-shadow: 0 0 20px 20px rgb(50,50,50);
+
 }
 .LightMainContent .Bar {
     background-color: black;
+    box-shadow: 0 0 20px 15px rgb(200,200,200);
+
 }
 
 .Fill {
@@ -492,9 +498,12 @@ html, body {
     background-color: rgb(25,25,25);
     /* height: 100%; */
     z-index: 100;
+
 }
 .LightMainContent .Fill {
     background-color: white;
+    background-color: rgb(225,225,225);
+
 }
 
 

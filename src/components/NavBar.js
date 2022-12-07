@@ -73,7 +73,7 @@ export default function NavBar(props) {
     }
 
     return(
-        <div className="NavBar" onMouseLeave={handleHoverLeave} style={{backgroundColor:getBackgroundColor(props.mode), color:getTextColor(props.mode)}}>
+        <div className="NavBar" onMouseLeave={handleHoverLeave} style={{color:getTextColor(props.mode)}}>
             <div className="NavLeft">
                 <img src={pfp} alt="pfp"/>
 
