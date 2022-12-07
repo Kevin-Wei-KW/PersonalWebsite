@@ -68,7 +68,7 @@ export default function NavBar(props) {
         if(mode === "dark") {
             return "0 0 10px 10px rgb(50, 50, 50)";
         } else {
-            return "0 0 10px 5px rgb(125,125,125)"
+            return "0 0 10px 5px rgb(150,150,150)"
         }
     }
 
