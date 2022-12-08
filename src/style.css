@@ -59,6 +59,7 @@ html, body {
     background-color: beige;
     /* box-shadow: 0px 5px 30px 10px rgb(100,100,100); */
     box-shadow: 0px 5px 10px 10px rgb(200,200,200);
+    opacity: 0.95;
 }
 
 .NavBar img{
@@ -131,14 +132,7 @@ html, body {
     border-radius: 50%;
     background-color: rgb(0,0,0, 0.80);
     text-shadow: 0 0 40px yellow;
-
 }
-
-.ModeBtn {
-    z-index: 200;
-}
-
-
 
 .NavBar .blank {
     width: 40%;
@@ -222,7 +216,7 @@ html, body {
     color: black;
     border-top: 1px solid black;
     box-shadow: 0px 10px 15px 10px rgb(200,200,200);
-
+    opacity: 0.95;
 }
 
 .NavDropdown:hover{
@@ -296,7 +290,7 @@ html, body {
 }
 
 .NameInfo a:hover {
-    color: rgb(225, 225, 163);
+    color: rgb(125,125,125);
 }
 
 .NameInfo i {
