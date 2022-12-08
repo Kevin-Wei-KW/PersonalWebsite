@@ -121,13 +121,13 @@ html, body {
 
 }
 .DarkMainContent .ModeBtn:hover {
-    box-shadow: 0 0 80px 50px whitesmoke !important;
+    box-shadow: 0 0 40px 25px whitesmoke !important;
     /* text-shadow: 0 0 40px yellow; */
     border-radius: 50%;
     background-color: rgb(255,255,255, 0.80);
 }
 .LightMainContent .ModeBtn:hover {
-    box-shadow: 0 0 80px 50px black !important;
+    box-shadow: 0 0 40px 25px black !important;
     border-radius: 50%;
     background-color: rgb(0,0,0, 0.80);
     text-shadow: 0 0 40px yellow;
@@ -409,11 +409,12 @@ html, body {
     min-width: 0;
     flex: 0 0 auto;
 
-    box-shadow: 0 0 5px 15px rgb(50, 50, 50);
+    box-shadow: 0 0 25px 25px rgb(50, 50, 50);
     border: 2px solid black;
 } 
 .LightMainContent .ProjectInfo img {
-    box-shadow: 0 0 5px 15px rgb(175,175,175);
+    box-shadow: 0 0 25px 25px rgb(175,175,175);
+    border: 2px solid white;
 }
 
 .ProjectInfo .ThisOne {
@@ -425,11 +426,11 @@ html, body {
     background-color:rgb(50, 50, 50);
     text-align: center;
 
-    box-shadow: 0 0 5px 15px rgb(50, 50, 50);
+    box-shadow: 0 0 25px 25px rgb(50, 50, 50);
 }
 .LightMainContent .ProjectInfo .ThisOne{
     background-color:rgb(175,175,175);
-    box-shadow: 0 0 5px 15px rgb(175,175,175);
+    box-shadow: 0 0 25px 25px rgb(175,175,175);
 }
 
 
