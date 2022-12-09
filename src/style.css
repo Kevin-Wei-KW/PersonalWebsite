@@ -381,6 +381,10 @@ html, body {
     color: beige;
 }
 
+.LightMainContent .ProjectContainer i {
+    color: black;
+}
+
 .ProjectInfo {
     display: flex;
     flex-direction: row;
@@ -442,6 +446,9 @@ html, body {
     border-bottom: 2px solid beige;
     padding: 20px;
     min-width: 800px;
+}
+.LightMainContent .EducationContainer {
+    border-bottom: 2px solid black;
 }
 
 .EducationContainer a:link {
