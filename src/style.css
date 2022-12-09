@@ -376,8 +376,11 @@ html, body {
     border-bottom: 2px solid black;
 }
 
-.ProjectContainer a:link {
-    color: beige;
+.ProjectContainer h1 a:link, a:visited{
+    color: white;
+}
+.LightMainContent .ProjectContainer h1 a:link, a:visited{
+    color: black;
 }
 
 .LightMainContent .ProjectContainer i {
@@ -397,6 +400,10 @@ html, body {
 
 .ProjectInfo li {
     margin: 10px 5px;
+}
+.ProjectInfo li a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
 }
 
 .ProjectInfo img {
@@ -452,8 +459,11 @@ html, body {
     border-bottom: 2px solid black;
 }
 
-.EducationContainer a:link {
-    color: beige;
+.EducationContainer a:link, a:visited {
+    color: white;
+}
+.LightMainContent .EducationContainer a:link, a:visited {
+    color: black;
 }
 
 .EducationContainer h4, h5 {
