@@ -422,6 +422,7 @@ html, body {
     flex: 0 0 auto;
     background-color:rgb(50, 50, 50);
     text-align: center;
+    color: white;
 
     box-shadow: 0 0 25px 25px rgb(50, 50, 50);
 }
