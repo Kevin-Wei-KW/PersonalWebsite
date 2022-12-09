@@ -358,7 +358,6 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-bottom: 2px solid inherit;
     padding: 20px 50px;
 }
 
