@@ -459,10 +459,16 @@ html, body {
     border-bottom: 2px solid black;
 }
 
-.EducationContainer a:link, a:visited {
+.EducationContainer h1 a:link {
     color: white;
 }
-.LightMainContent .EducationContainer a:link, a:visited {
+.LightMainContent .EducationContainer h1 a:link {
+    color: black;
+}
+.EducationContainer h1 a:visited {
+    color: white;
+}
+.LightMainContent .EducationContainer h1 a:visited {
     color: black;
 }
 
