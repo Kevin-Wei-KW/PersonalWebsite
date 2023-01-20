@@ -541,7 +541,7 @@ html, body {
 
 }
 .LightMainContent .Bar {
-    background-color: black;
+    background-color: rgb(34, 34, 34);
     /* box-shadow: 0 0 20px 15px rgb(200,200,200); */
     box-shadow: 0 0 20px 15px beige;
 

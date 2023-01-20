@@ -31,25 +31,34 @@ export default function Skills() {
 
             <h1>Programming Languages</h1>
             <div className="SkillSection">
-                
                 <SkillItem 
                     name = "Java"
                     level = {90}
                 />
                 <SkillItem 
                     name = "Python"
-                    level = {70}
+                    level = {75}
                 />
                 <SkillItem 
                     name = "C++"
-                    level = {70}
+                    level = {75}
                 />
                 <SkillItem 
-                    name = "HTML/CSS"
-                    level = {85}
+                    name = "HTML"
+                    level = {90}
                 />
                 <SkillItem 
                     name = "JavaScript"
+                    level = {85}
+                />
+                <SkillItem 
+                    name = "Typescript"
+                    level = {75}
+                />
+            </div>
+            <div className="SkillSection">
+                <SkillItem 
+                    name = "CSS"
                     level = {80}
                 />
                 <SkillItem 
@@ -60,15 +69,17 @@ export default function Skills() {
                     name = "Racket"
                     level = {50}
                 />
-
             </div>
 
             <h1>Technologies</h1>
             <div className="SkillSection">
-
                 <SkillItem
                     name = "ReactJS"
                     level = {80}
+                />
+                <SkillItem
+                    name = "VueJS"
+                    level = {90}
                 />
                 <SkillItem
                     name = "Spring"
@@ -86,12 +97,19 @@ export default function Skills() {
                     name = "Selenium"
                     level = {50}
                 />
+            </div>
+            <div className="SkillSection">
+
                 <SkillItem
                     name = "Bootstrap"
                     level = {60}
                 />
                 <SkillItem
                     name = "Regular Expression"
+                    level = {80}
+                />
+                <SkillItem
+                    name = "Git"
                     level = {80}
                 />
 
@@ -102,7 +120,7 @@ export default function Skills() {
 
                 <SkillItem
                     name = "Typing"
-                    level = {90}
+                    level = {95}
                 />
                 <SkillItem
                     name = "Ping Pong"
@@ -110,7 +128,7 @@ export default function Skills() {
                 />
                 <SkillItem
                     name = "Badminton"
-                    level = {60}
+                    level = {65}
                 />
                 <SkillItem
                     name = "Googling"
