@@ -408,8 +408,7 @@ html, body {
 
 .ProjectInfo img {
     margin-left: 50px;
-    width: 500px;
-    height: 250px;
+    width: 550px;
     min-width: 0;
     flex: 0 0 auto;
 
@@ -423,7 +422,7 @@ html, body {
 
 .ProjectInfo .ThisOne{
     margin-left: 50px;
-    width: 500px;
+    width: 550px;
     height: 250px;
     min-width: 0;
     flex: 0 0 auto;
