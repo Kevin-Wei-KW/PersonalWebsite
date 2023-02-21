@@ -6,7 +6,7 @@ import rhsLogo from "../images/rhs_logo.png";
 export default function Education() {
 
     return(
-        <div className="Education">
+        <div className="Page Education">
             <div className="EducationContainer">
                 <h1>
                     <a href="https://uwaterloo.ca/future-students/programs/computer-engineering">

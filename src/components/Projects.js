@@ -12,7 +12,7 @@ export default function Project() {
     }
 
     return(
-        <div className="Project">
+        <div className="Page Project">
 
             <div className="ProjectContainer">
                 <h1>

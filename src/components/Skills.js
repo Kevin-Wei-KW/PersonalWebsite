@@ -5,7 +5,7 @@ import SkillItem from "./SkillItem.js";
 export default function Skills() {
 
     return(
-        <div className="Skills">
+        <div className="Page Skills">
             
             <h1>Human Languages</h1>
             <div className="SkillSection">

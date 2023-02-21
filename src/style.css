@@ -16,6 +16,13 @@ html, body {
     min-width: 700px;
 }
 
+.Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
 
 /* NAVBAR */
 
@@ -352,14 +359,19 @@ html, body {
 }
 
 
-/* Project */
+/* Experience */
 
-.Project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 50px;
+.ExperienceContainer {
+    padding: 20px;
+    min-width: 800px;
 }
+
+.ExperienceContainer h1, h3 {
+    display: inline;
+}
+
+
+/* Project */
 
 .Project i {
     color: white;
@@ -442,13 +454,6 @@ html, body {
 
 /* Education */
 
-.Education {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 50px;
-}
-
 .EducationContainer {
     border-bottom: 2px solid beige;
     padding: 20px;
@@ -506,9 +511,6 @@ html, body {
 /* SKILLS */
 
 .Skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 30px 50px;
 }
