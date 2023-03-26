@@ -78,7 +78,7 @@ export default function NavBar(props) {
                 <img src={pfp} alt="pfp"/>
 
                 <h3><a onClick={()=>props.setPage("Profile")}>Kevin Wei</a></h3>
-                <a href="mailto: kevin.wei20622@gmail.com"><i className="fa fa-envelope" aria-hidden="true"></i> kevin.wei20622@gmail.com</a>
+                <a href="mailto: kevin.wei1@uwaterloo.ca"><i className="fa fa-envelope" aria-hidden="true"></i> kevin.wei1@uwaterloo.ca</a>
 
             </div>
 
