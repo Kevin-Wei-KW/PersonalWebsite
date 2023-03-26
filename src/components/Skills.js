@@ -53,7 +53,7 @@ export default function Skills() {
                 />
                 <SkillItem 
                     name = "Typescript"
-                    level = {75}
+                    level = {85}
                 />
             </div>
             <div className="SkillSection">
@@ -101,7 +101,15 @@ export default function Skills() {
             <div className="SkillSection">
 
                 <SkillItem
+                    name = "NuxtJS"
+                    level = {75}
+                />
+                <SkillItem
                     name = "Bootstrap"
+                    level = {65}
+                />
+                <SkillItem
+                    name = "jQuery"
                     level = {60}
                 />
                 <SkillItem
@@ -110,7 +118,7 @@ export default function Skills() {
                 />
                 <SkillItem
                     name = "Git"
-                    level = {80}
+                    level = {90}
                 />
 
             </div>
