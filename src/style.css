@@ -366,8 +366,11 @@ html, body {
     min-width: 800px;
 }
 
-.ExperienceContainer h1, h3 {
-    display: inline;
+.ExperienceHeader {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
