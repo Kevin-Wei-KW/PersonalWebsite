@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import simpleShopGif from "../images/simple_shop.gif";
 import mathConnectGif from "../images/math_connect.gif";
 import webScraperGif from "../images/ecommerce_web_scraper.gif";
+import dartVolumeGif from "../images/dart_demo.gif";
 
 export default function Project() {
 
@@ -107,6 +108,32 @@ export default function Project() {
                     </div>
                 </div>
             </div>
+
+            <div className="ProjectContainer">
+                <h1>
+                    <a href="https://github.com/kevin-wei-kw/DartVolumeController">
+                        Dart Volume Controller <i className="fa fa-github"></i>
+                    </a>
+                </h1>
+
+                <h4>Technologies: JavaScript, Canvas, jQuery, HTML, CSS</h4>
+
+                <div className="ProjectInfo">
+
+                    <ul>
+                        <li>Game of Darts that outputs a volume depending on score <span style={{whiteSpace: 'nowrap'}}>(0-100%)</span></li>
+                        <li>Designed an unique dart board with <b>HTML Canvas</b></li>
+                        <li>Developed a dart throwing simulation by using <b>jQuery</b> to manipulate <b>CSS</b> of the dart with calculated 3D kinematics</li>
+                        <li>Implemented score calculation by tracking and calibrating dart coordinates, then applying trignometry</li>
+                        <li>Optimized system to operate mouse and touch events</li>
+                    </ul>
+
+                    <img src={dartVolumeGif} alt="Dart Volume Controller Gif"/>
+                </div>
+
+
+            </div>
+
 
         </div>
     )
