@@ -237,7 +237,7 @@ html, body {
 .Profile {
     min-height: 100vh;
     padding: 30px;
-    padding-top: 50px;
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -252,6 +252,7 @@ html, body {
     margin-top: 15vh;
     width: 50vw;
     min-width: 300px;
+    max-width: 50%;
 
     /* border: 0px solid black; */
 }
@@ -302,6 +303,27 @@ html, body {
 
 .NameInfo i {
     font-size: 30px;
+}
+
+
+.Profile .About {
+    max-width: 50%;
+    padding: 30px;
+    margin-top: 10vh;
+}
+
+.About p {
+    color: beige;   
+    font-weight: 600;
+    background-color: black;
+    opacity: 80%;
+    padding: 30px;
+
+    border-radius: 10px;
+}
+.About p:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 10px 10px 5px 10px rgb(25,25,25);
 }
 
 
@@ -384,8 +406,17 @@ html, body {
     padding: 20px;
     min-width: 800px;
 }
-.DarkMainContent .ProjectContainer {
+.ProjectContainer:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 0px 5px 20px rgb(25,25,25);
+    border-radius: 10px;
+
+    border-top: 2px solid beige;
     border-bottom: 2px solid beige;
+
+}
+.DarkMainContent .ProjectContainer {
+    /* border-bottom: 2px solid beige; */
 }
 .LightMainContent .ProjectContainer {
     border-bottom: 2px solid black;
@@ -441,7 +472,8 @@ html, body {
     height: 250px;
     min-width: 0;
     flex: 0 0 auto;
-    background-color:rgb(50, 50, 50);
+    background-color:rgb(75, 75, 75);
+    border-radius: 20px;
     text-align: center;
     color: white;
 
@@ -458,9 +490,17 @@ html, body {
 /* Education */
 
 .EducationContainer {
-    border-bottom: 2px solid beige;
+    /* border-bottom: 2px solid beige; */
     padding: 20px;
     min-width: 800px;
+}
+.EducationContainer:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 0px 5px 20px rgb(25,25,25);
+    border-radius: 10px;
+
+    border-top: 2px solid beige;
+    border-bottom: 2px solid beige;
 }
 .LightMainContent .EducationContainer {
     border-bottom: 2px solid black;
