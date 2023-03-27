@@ -12,9 +12,6 @@ export default function Profile() {
                     Hi there! I am a Software Developer 
                     currently studying Computer Engineering 
                     at the University of Waterloo. 
-                    <br/><br/>
-                    During my free time, I enjoy exploring a variety 
-                    of programming languages and tech stacks.
                 </p>
 
                 <ul>
@@ -23,7 +20,20 @@ export default function Profile() {
                 </ul>
             </div>
 
-            <div className="shadow"><img className="FormalPic" src={formalpic} alt="Formal Pic"/></div>
+            <div className="About">
+                <p>
+                    As a developer, I actively work on a plethora of different projects 
+                    experiencing the use of different tech stacks and programming languages. 
+                </p>
+                    <br/><br/>
+                <p>
+                    While I'm not glued to my workstation, I enjoy reading fictions,
+                    as long as it's accompanied by some soothing music and a hot cup of coffee.
+                    Of course, I'm also fond of a good workout to keep a routine.
+                </p>
+            </div>
+
+            {/* <div className="shadow"><img className="FormalPic" src={formalpic} alt="Formal Pic"/></div> */}
 
             <div className="blank"></div>
 
