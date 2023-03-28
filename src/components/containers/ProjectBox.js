@@ -21,11 +21,11 @@ export default function ProjectBox(props) {
 
     <div className="ProjectInfo">
 
-        <ul>
-            {props.children}
-        </ul>
+        {props.children}
 
-        <img src={props.import} alt={`${props.alt}`}/>
+        {props.import !== '' &&
+            <img src={props.import} alt={`${props.alt}`}/>
+        }
     </div>
 </div>
 
