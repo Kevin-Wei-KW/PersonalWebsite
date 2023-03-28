@@ -462,7 +462,7 @@ html, body {
     min-width: 0;
     flex: 0 0 auto;
 
-    box-shadow: 0 0 25px 25px rgb(50, 50, 50);
+    box-shadow: 0 0 25px 20px rgb(25, 25, 25);
     border: 2px solid black;
 } 
 .LightMainContent .ProjectInfo img {
@@ -481,7 +481,7 @@ html, body {
     text-align: center;
     color: white;
 
-    box-shadow: 0 0 25px 25px rgb(50, 50, 50);
+    box-shadow: 0 0 25px 25px rgb(25, 25, 25);
 }
 .LightMainContent .ProjectInfo .ThisOne{
     background-color:rgb(175,175,175);
