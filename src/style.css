@@ -386,6 +386,8 @@ html, body {
 .ExperienceContainer {
     padding: 20px;
     min-width: 800px;
+
+    border: 2px solid transparent;
 }
 
 .ExperienceHeader {
@@ -405,6 +407,8 @@ html, body {
 .ProjectContainer {
     padding: 20px;
     min-width: 800px;
+
+    border: 2px solid transparent;
 }
 .ProjectContainer:hover {
     background-color: rgb(50, 50, 50);
@@ -490,9 +494,11 @@ html, body {
 /* Education */
 
 .EducationContainer {
-    /* border-bottom: 2px solid beige; */
     padding: 20px;
     min-width: 800px;
+
+    border: 2px solid transparent;
+
 }
 .EducationContainer:hover {
     background-color: rgb(50, 50, 50);

@@ -1,6 +1,6 @@
 import React from "react";
 
-import SkillItem from "./SkillItem.js";
+import SkillItem from "./containers/SkillItem.js";
 
 export default function Skills() {
 

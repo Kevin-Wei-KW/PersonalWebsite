@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 
+import ProjectBox from "./containers/ProjectBox.js";
+
 import simpleShopGif from "../images/simple_shop.gif";
 import mathConnectGif from "../images/math_connect.gif";
 import webScraperGif from "../images/ecommerce_web_scraper.gif";
@@ -15,7 +17,7 @@ export default function Project() {
     return(
         <div className="Page Project">
 
-            <div className="ProjectContainer">
+            {/* <div className="ProjectContainer">
                 <h1>
                     <a href="https://github.com/kevin-wei-kw/SimpleShop">
                         Simple Shop <i className="fa fa-github"></i>
@@ -37,9 +39,20 @@ export default function Project() {
 
                     <img src={simpleShopGif} alt="Simple Shop Gif"/>
                 </div>
+            </div> */}
 
-
-            </div>
+            <ProjectBox
+                link="https://github.com/kevin-wei-kw/SimpleShop"
+                title="Simple Shop"
+                techs="Java, JSP, H2 Database, Spring Boot, Spring MVC, Hibernate"
+                import={simpleShopGif}
+                alt="Simple Shop Gif">
+                <li>Designed a responsive and intuitive UI with JavaScript and Bootstrap.</li>
+                <li>Incorporated Animate on scroll <b>AOS</b> library to enhance UX fluidity.</li>
+                <li>Embedded external programs into website <b>Google Drive, Google Form, Mail Client</b>.</li>
+                <li>Embedded particle simulations for visual and interactive enhancement.</li>
+                <li>Registered a custom domain <a href="https://mathconnect.ca/"><b>mathconnect.ca</b></a> through Replit.</li>
+            </ProjectBox>
 
             <div className="ProjectContainer">
 
