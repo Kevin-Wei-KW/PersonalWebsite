@@ -13,18 +13,30 @@ export default function Skills() {
                 <SkillItem 
                     name = "English"
                     level = {100}
+                    info = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation"
                 />
                 <SkillItem 
                     name = "Mandarin"
                     level = {90}
+                    info = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation"                
                 />
                 <SkillItem 
                     name = "French"
                     level = {40}
+                    info = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation"               
                 />
                 <SkillItem 
                     name = "Japanese"
                     level = {10}
+                    info = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation"
                 />
 
             </div>

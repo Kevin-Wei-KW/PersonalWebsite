@@ -599,7 +599,7 @@ html, body {
     box-shadow: 0 0 20px 20px rgb(50,50,50);
 
 }
-.Bar:hover {
+.BarExpanded {
     position: relative;
     left: -80px;
     width: 200px;
@@ -616,6 +616,9 @@ html, body {
 }
 
 .Bar .info {
+    position: absolute;
+    top: 0;
+
     visibility: hidden;
     margin: 10px;
 }

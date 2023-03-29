@@ -1,9 +1,15 @@
 import React from "react";
+import { useState } from 'react';
 
 export default function SkillItem(props) {
+    const [hover, setHover] = useState(false);
+
     return(
         <div className="SkillItem">
-            <div className="Bar">
+            <div
+                className= { hover && props.info? 'Bar BarExpanded':'Bar' }
+                onMouseEnter={ () => setHover(true) }
+                onMouseLeave={ () => setHover(false) }>
                 <div className="Fill" style={{height: `${100-props.level}%`}}></div>
                 <div className="info">{props.info}</div>
             </div>
