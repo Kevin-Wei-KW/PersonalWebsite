@@ -582,6 +582,15 @@ html, body {
     background-color: inherit;
     max-width: 800px;
 }
+/* .SkillItem:hover {
+    position: relative;
+    grid-template-columns: 0 160px 0;
+    grid-template-rows: 200px 0 10px 20px 20px;
+    
+} */
+/* .SkillItem:hover .tooltip {
+    visibility: visible;
+} */
 
 .Bar {
     background-color: beige;
@@ -590,11 +599,28 @@ html, body {
     box-shadow: 0 0 20px 20px rgb(50,50,50);
 
 }
+.Bar:hover {
+    position: relative;
+    left: -80px;
+    width: 200px;
+    /* padding: 10px; */
+    
+    background-color: rgb(245,245,220, 0.3);
+    /* opacity: 30%; */
+}
 .LightMainContent .Bar {
     background-color: rgb(34, 34, 34);
     /* box-shadow: 0 0 20px 15px rgb(200,200,200); */
     box-shadow: 0 0 20px 15px beige;
 
+}
+
+.Bar .info {
+    visibility: hidden;
+    margin: 10px;
+}
+.Bar:hover .info {
+    visibility: visible;
 }
 
 .Fill {
@@ -627,6 +653,19 @@ html, body {
     
 }
 
+.tooltip {
+    position: relative;
+    top: 0;
+
+
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    background-color: white;
+    width: 160px;
+    z-index: 5;
+    
+    visibility: hidden;
+}
 
 /* FOOTER */
 
