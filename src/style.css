@@ -606,7 +606,8 @@ html, body {
     /* padding: 10px; */
     
     background-color: rgb(245,245,220, 0.3);
-    /* opacity: 30%; */
+    cursor: default;
+    border: 1px solid black;
 }
 .LightMainContent .Bar {
     background-color: rgb(34, 34, 34);
@@ -620,6 +621,7 @@ html, body {
     top: 0;
 
     visibility: hidden;
+    cursor: default;
     margin: 10px;
 }
 .Bar:hover .info {
