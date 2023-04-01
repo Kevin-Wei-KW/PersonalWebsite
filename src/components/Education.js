@@ -22,13 +22,13 @@ export default function Education() {
                     <ul>
                         <li>ECE 150: Fundamentals of Programming</li>
                         <li className="sub">
-                            Became proficient at C++. Further developed 
+                            Became proficient at <b>C++</b>. Further developed 
                             skills in algorithms and data structures.
                         </li>
                         <li>ECE 198: Project Studio</li>
                         <li className="sub">
-                            Developed an automated human detector with Nucleo and IR sensor 
-                            with logic written in Arduino code.
+                            Developed an automated human detector with <b>Nucleo</b> and IR sensor 
+                            with logic written in <b>Arduino</b> code.
                         </li>
                     </ul>
 
@@ -53,10 +53,10 @@ export default function Education() {
                 <div className="EducationInfo">
 
                     <ul>
-                        <li>Created various designs with Adobe Creative Suite (Photoshop, Illustrator, InDesign, Premiere, Dimensions).</li>
-                        <li>Practiced standard Financial Accounting practices.</li>
-                        <li>Implemented websites for the school with HTML/CSS.</li>
-                        <li>Competed in coding competitions, Waterloo's CCC and USACO</li>
+                        <li>Created various designs with <b>Adobe Creative Suite</b> (Photoshop, Illustrator, InDesign, Premiere, Dimensions).</li>
+                        <li>Practiced standard <b>Financial Accounting</b> practices.</li>
+                        <li>Implemented websites for the school with <b>HTML/CSS</b>.</li>
+                        <li>Competed in coding competitions, Waterloo's <b>CCC and USACO</b></li>
                         <li>Developed collaboration and leadership skills, namely when leading group projects in building Mechanical Engineering Projects.</li>
                         <li>Completed AP Courses: Computer Science A, Calculus BC, Physics 1, Physics 2, Micro- Macroeconomics, </li>
                     </ul>

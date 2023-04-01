@@ -9,7 +9,8 @@ export default function Experience() {
                 link="https://gochartd.com"
                 company="Chartd"
                 position="Web Application Developer"
-                techs="VueJS, NuxtJS, TypeScript, JSON, HTML, SCSS">
+                techs="VueJS, NuxtJS, TypeScript, JSON, HTML, SCSS"
+                period="January 2023 - April 2023">
                 <ul>
                     <li>Developed dynamic and interactive financial models with <b>Vue.js</b> to visualize Defence Contract fulfillment.</li>
                     <li>Abstracted financial data from <b>JSON</b> to <b>TypeScript</b> objects for organized display in Tables, Graphs, and Charts capable of extensive filtering.</li>
