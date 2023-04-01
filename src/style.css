@@ -624,6 +624,9 @@ html, body {
     cursor: default;
     margin: 10px;
 }
+.Bar .info .skillInfoHeader {
+    border-bottom: 2px solid white;
+}
 .Bar:hover .info {
     visibility: visible;
 }
