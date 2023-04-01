@@ -393,6 +393,15 @@ b {
 
     border: 2px solid transparent;
 }
+.ExperienceContainer:hover {
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 0px 5px 20px rgb(25,25,25);
+    border-radius: 10px;
+
+    border-top: 2px solid beige;
+    border-bottom: 2px solid beige;
+
+}
 
 .ExperienceHeader {
     display: flex;
@@ -462,7 +471,8 @@ b {
 
 .ProjectInfo img {
     margin-left: 50px;
-    width: 550px;
+    height: 300px;
+    max-width: 500px;
     min-width: 0;
     flex: 0 0 auto;
 
@@ -683,7 +693,7 @@ b {
 
 .Footer {
     margin-top: 100px;
-    height: 20vh;
+    height: 10vh;
     padding: 20px;
     text-align: center;
 }
