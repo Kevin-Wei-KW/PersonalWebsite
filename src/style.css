@@ -12,6 +12,10 @@ html, body {
     font-family: GoogleFont;
 }
 
+b {
+    font-weight: 800;
+}
+
 .Front {
     min-width: 700px;
 }
