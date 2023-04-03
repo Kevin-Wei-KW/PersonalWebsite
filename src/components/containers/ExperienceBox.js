@@ -9,6 +9,7 @@ export default function ExperienceBox(props) {
                     <a href={props.link}>
                         {props.company}     
                     </a>
+                    <i style={{fontSize: '25px', marginLeft:'5px'}} className="fa">&#xf08e;</i>
                     &nbsp;&nbsp;|&nbsp;&nbsp;
                 </h1>
                 <h3>

@@ -23,7 +23,7 @@ export default function Profile() {
             <div className="About">
                 <p>
                     During my free time, I actively work on a plethora of different projects, 
-                    experiencing the use of different tech stacks and programming languages. 
+                    learning how to use different tech stacks and programming languages. 
                 </p>
                     
                 <p>
