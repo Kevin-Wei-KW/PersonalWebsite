@@ -17,7 +17,7 @@ export default function Experience() {
                     <li>Implemented <b>CRUD</b> operation modules, complete with thorough <b>Unit Testing</b>, to reliably accept inputs and relay information to the back-end database.</li>
                     <li>Designed flexible <b>Components</b>, used dozens of times throughout the application, with priority on customization through conditional rendering.</li>
                     <li>Assisted in constructing an intuitive and accessible navigation system with <b>Nuxt.js</b>.</li>
-                    <li>Followed <b>Git</b> workflow and wrote informative and intuitive <b>Pull Requests</b> to detail component functions.</li>
+                    <li>Followed <b>Git</b> workflow to write informative and intuitive <b>Pull Requests</b> to detail component functions.</li>
                 </ul>
             </ExperienceBox>
         </div>
