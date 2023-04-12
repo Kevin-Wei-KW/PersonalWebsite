@@ -22,21 +22,20 @@ export default function Skills() {
                     level = {90}>
                     Experience: <u>Native</u> <br/>
                     I am almost fully fluent in it, easily capable of
-                    conducting myself even in professional environments, but perhaps lacking some jargons.
+                    conducting myself even in professional environments.
                 </SkillItem>
                 <SkillItem 
                     name = "French"
                     level = {40}>
                     Experience: <u>Beginner</u> <br/>
-                    I am capable of basic conversations and slightly more advanced reading. However, due to lacking
-                    practice, I cannot freely express myself.
+                    I am capable of basic conversations and slightly more advanced reading.
+                    Can follow and carry out simple tasks and instructions.
                 </SkillItem>
                 <SkillItem 
                     name = "Japanese"
                     level = {10}>
                     Experience: <u>Beginner</u> <br/>
-                    I can carry out simple pleasantries and understand easy texts. Due to not having studied it for long,
-                    I still lack a lot of vocabulary.
+                    I can carry out simple pleasantries and understand easy texts.
                 </SkillItem>
 
             </div>
@@ -195,7 +194,7 @@ export default function Skills() {
                     Fastest Typing Speed: <u>155 wpm</u> <br/>
                     Average Typing Speed: <u>117 wpm</u> <br/>
                     <br/>
-                    Source: monkeytype
+                    Source: <a href="https://monkeytype.com/">monkeytype</a>
                 </SkillItem>
                 <SkillItem
                     name = "Ping Pong"
@@ -225,7 +224,7 @@ export default function Skills() {
                     name = "Gaming"
                     level = {60}>
                     Not the biggest gamer, but enjoys a variety of games, particularly strategy ones. This
-                    inspired me to study game development and experiment with creating my own games.
+                    inspired me to study game development and experiment with creating games of my own.
                 </SkillItem>
 
             </div>
