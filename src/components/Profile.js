@@ -21,13 +21,15 @@ export default function Profile() {
             </div>
 
             <div className="About">
-                <p>
-                    During my free time, I actively work on a plethora of different projects, 
-                    learning how to use different tech stacks and programming languages. 
+                <p style={{textIndent: '30px'}}>
+                    During my free time, I work on a plethora of different coding projects, 
+                    learning how to use various tech stacks and programming languages.
+                    I am always looking for new challenges and experiences to continue developing
+                    my skillset.
                 </p>
                     
-                <p>
-                    While I'm not glued to my workstation, I enjoy reading fictions,
+                <p style={{textIndent: '30px'}}>
+                    While I'm not glued to my laptop, I enjoy reading (mainly fictions),
                     as long as it's accompanied by some soothing music and a hot cup of coffee.
                     Of course, I'm also fond of a good workout to keep a routine.
                 </p>
