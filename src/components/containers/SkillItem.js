@@ -1,15 +1,13 @@
 import React from "react";
 import { useState } from 'react';
+import $ from 'jquery';
 
 export default function SkillItem(props) {
-    const [hover, setHover] = useState(false);
 
     return(
         <div className="SkillItem">
             <div
-                className= { hover && props.children? 'Bar BarExpanded':'Bar' }
-                onMouseEnter={ () => setHover(true) }
-                onMouseLeave={ () => setHover(false) }>
+                className="Bar">
                 <div className="Fill" style={{height: `${100-props.level}%`}}></div>
                 <div className="info">{props.children}</div>
             </div>
