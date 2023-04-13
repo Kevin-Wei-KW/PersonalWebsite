@@ -10,6 +10,7 @@ import Skills from "./Skills.js";
 export default function Front(props) {
 
     function NewPage() {
+        window.scrollTo(0, 0);
         if (props.page === "Resume") {
             return <Resume/>;
         } else if (props.page === "Projects"){
