@@ -29,8 +29,8 @@ export default function Profile() {
                 </p>
                     
                 <p style={{textIndent: '30px'}}>
-                    While I'm not glued to my laptop, I enjoy reading (mainly fictions),
-                    as long as it's accompanied by some soothing music and a hot cup of coffee.
+                    While I'm not glued to my laptop, I enjoy reading (mainly fictions)
+                    accompanied by some soothing music and a hot cup of coffee.
                     Of course, I'm also fond of a good workout to keep a routine.
                 </p>
             </div>
