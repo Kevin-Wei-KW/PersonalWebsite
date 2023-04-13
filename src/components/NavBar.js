@@ -22,18 +22,11 @@ export default function NavBar(props) {
         }
     }
 
-
-    // const[navState, setNavState] = useState("NavNormal");
-
-    // useEffect(() => {
-
-    // }, navState)
-
     const [navState, setNavState] = useState("NavNormal");
     const [height, width] = useWindowSize();
     
     useEffect(() => {
-        setNavState(width >= 975? "NavNormal":"NavDropdown");
+        setNavState(width >= 1100? "NavNormal":"NavDropdown");
     }, [width])
     
 
@@ -47,8 +40,9 @@ export default function NavBar(props) {
     }
     function handleHoverLeave() {
         setDropdownState("Collapse");
-
     }
+
+    
 
     function getBackgroundColor(mode) {
         if(mode === "dark") {
@@ -91,7 +85,7 @@ export default function NavBar(props) {
             <div className="Dropdown" id="normNavBtn">
                 <button className="dropbtn" onMouseOver={handleHover} style={{display: navState=="NavNormal"? "none":"inline-block"}}><i className="fa fa-caret-down"></i></button>
                 <div className={navState} id={dropdownState}>
-                    {/* <li><a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Resume</a></li> */}
+                    <li><a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Resume</a></li>
                     <li><a onClick={()=>props.setPage("Experience")} style={{boxShadow: checkActive("Experience")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Experience</a></li>
                     <li><a onClick={()=>props.setPage("Projects")} style={{boxShadow: checkActive("Projects")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Projects</a></li>
                     <li><a onClick={()=>props.setPage("Education")} style={{boxShadow: checkActive("Education")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Education</a></li>

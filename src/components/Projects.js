@@ -43,7 +43,7 @@ export default function Project() {
                     <li>Incorporated Animate on scroll <b>AOS</b> library to enhance UX fluidity.</li>
                     <li>Embedded external programs into website <b>Google Drive, Google Form, Mail Client</b>.</li>
                     <li>Embedded particle simulations for visual and interactive enhancement.</li>
-                    <li>Registered a custom domain <a href="https://mathconnect.ca/"><b>mathconnect.ca</b></a> visited by <b>100+</b> members.</li>
+                    <li>Registered a custom domain <a href="https://mathconnect.ca/"><b>mathconnect.ca</b></a> visited regularly by <b>100+</b> members.</li>
                 </ul>
             </ProjectBox>
 

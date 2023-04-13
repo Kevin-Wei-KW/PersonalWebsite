@@ -1,6 +1,6 @@
 import React from "react";
 
-import resumePDF from "../images/Coop_Resume(O).pdf"
+import resumePDF from "../images/Coop_Resume (O).pdf"
 
 export default function Resume() {
     return(
