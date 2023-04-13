@@ -420,7 +420,9 @@ b {
     justify-content: flex-start;
     align-items: center;
 }
-
+.ExperienceHeader a:link, a:visited{
+    color: white;
+}
 
 /* Project */
 
