@@ -181,8 +181,16 @@ export default function Skills() {
                     name = "Git"
                     level = {90}>
                     Experience: <u>2+ years</u> <br/>
-                    Follow git workflow in both professional and personal projects. Worked with
+                    Followed git workflow in both professional and personal projects. Worked with
                     teams on complex projects with git.
+                </SkillItem>
+                <SkillItem
+                    name = "Cypress"
+                    level = {65}>
+                    Experience: <u>&lt;1 year</u> <br/>
+                    Conducted End-To-End Testing and Unit Testing on professional web applications. 
+                    Particularly designed extensive tests on CRUDs.
+
                 </SkillItem>
             </div>
 
