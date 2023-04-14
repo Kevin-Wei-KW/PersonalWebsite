@@ -49,7 +49,7 @@ b {
     color: beige;
     opacity: 0.90;
 
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
 
     position: -webkit-sticky;
 	position: sticky;
@@ -424,6 +424,10 @@ b {
     color: white;
 }
 
+.ExperienceInfo li {
+    margin: 10px 5px;
+}
+
 /* Project */
 
 .Project i {
@@ -472,7 +476,8 @@ b {
     margin-bottom: 50px;
 }
 
-.ProjectInfo ul {
+.ProjectInfo ul {   
+    margin-top: 0;
     min-width: 300px;
 }
 
@@ -568,6 +573,10 @@ b {
 
 .EducationInfo .sub {
     margin-left: 20px;
+}
+
+.EducationInfo li {
+    margin: 10px 5px;
 }
 
 .EducationInfo img {

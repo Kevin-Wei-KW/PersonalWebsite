@@ -12,6 +12,7 @@ export default function Education() {
                     <a href="https://uwaterloo.ca/future-students/programs/computer-engineering">
                         University of Waterloo
                     </a>
+                    <i style={{fontSize: '25px', marginLeft:'5px'}} className="fa">&#xf08e;</i>
                 </h1>
 
                 <h4>Bachelor's Degree in Computer Engineering</h4>
@@ -45,6 +46,8 @@ export default function Education() {
                     <a href="https://rhs.sd38.bc.ca/">
                         Richmond Secondary School
                     </a>
+                    <i style={{fontSize: '25px', marginLeft:'5px'}} className="fa">&#xf08e;</i>
+
                 </h1>
 
                 <h4>Graduated with 98% Average</h4>
