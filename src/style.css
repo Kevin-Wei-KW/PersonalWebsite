@@ -65,8 +65,9 @@ b {
 }
 
 .DarkMainContent .NavBar:hover {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(40, 40, 40);
     box-shadow: 0px 10px 5px 10px rgb(25,25,25);
+    opacity: 0.95;
 }
 .LightMainContent .NavBar:hover {
     background-color: beige;
@@ -102,11 +103,12 @@ b {
 }
 
 .NavBar a{
-    padding: 2px;
+    /* padding: 2px; */
     margin-right: 20px;
     margin-left: 20px;
+    padding: 7px 5px 7px 5px;
 
-    transition: all 0.2s;
+    transition: box-shadow 0.2s;
 }
 
 .NavBar a:link {
@@ -118,10 +120,15 @@ b {
     cursor:pointer;
     border-radius: 5px;
 }
-.DarkMainContent .NavBar #normNavBtn a:hover {
-    box-shadow: 0 0 10px 5px black !important;  /*important overrides selected button shadow*/
+.DarkMainContent .NavBar .nav a:hover {
+    box-shadow: 0px 15px 8px -8px black!important;  /*important overrides selected button shadow*/
+    border-bottom: 1px solid black;
+    /* border-bottom: 2px solid beige;
+    border-left: 2px solid beige;
+    border-right: 2px solid beige; */
+    /* box-shadow: 0 0 10px 5px black !important;  important overrides selected button shadow */
 }
-.LightMainContent .NavBar #normNavBtn a:hover {
+.LightMainContent .NavBar .nav a:hover {
     box-shadow: 0 0 25px 5px rgb(150,150,150) !important;
 }
 
@@ -153,10 +160,7 @@ b {
     width: 40%;
 }
 
-.Dropdown *{
-    display: inline-block;
-    /* margin-right: 50px; */
-}
+
 
 .dropbtn {
     width: 40px;
@@ -175,13 +179,22 @@ b {
     margin-top: 2px;
 }
 
-.Dropdown {
+.nav {
     min-width: 50px;
     margin-left: auto;
+    list-style-type: none;
+    display: inline-block;
     /* align-self: right; */
 }
 
-.NavDropdown{
+
+.nav-normal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-dropdown{
     display: none;
 }
 
@@ -213,20 +226,20 @@ b {
 
     white-space: nowrap;
 
-    width: 550px;
+    width: 600px;
     height: 50px;
 
-    background-color:rgb(50,50,50);
+    background-color:rgb(45,45,45);
     color: beige;
     opacity: 1;
 
-    border-left: 2px solid beige;
-    border-right: 2px solid beige;
+    /* border-left: 2px solid beige;
+    border-right: 2px solid beige; */
     border-radius: 20px;
 
     box-shadow: 0px 12px 5px 5px rgb(25,25,25);
 
-    transition: all 0.3s;
+    transition: box-shadow 0.3s;
 
 }
 .LightMainContent #Expanded {
@@ -237,9 +250,52 @@ b {
     opacity: 0.95;
 }
 
-.NavDropdown:hover{
+/* .NavDropdown:hover{
     display: inline-block;
     background-color: white;
+} */
+
+/* .nav-project {
+    position: relative;
+} */
+/* .nav-project:hover .projects-dropdown {
+    display: flex;
+} */
+
+.projects-dropdown {
+    position: absolute;
+    top: 50px;
+    right: 190px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 160px;
+
+    background-color:rgb(47,47,47);
+    color: beige;
+
+    /* border-top: 2px solid beige; */
+    /* border-bottom: 2px solid beige; */
+    border-radius: 20px;
+
+    box-shadow: 0px 20px 5px 5px rgb(25,25,25);
+
+    z-index: 10;
+}
+
+.projects-option {
+    border-bottom: 1px solid transparent;
+    margin: 15px 5px;
+}
+
+.projects-option:hover {
+    box-shadow: 0px 15px 8px -8px black!important;  /*important overrides selected button shadow*/
+    border-bottom: 1px solid black;
+    /* border-bottom: 2px solid beige; */
+    /* border-right: 1px solid beige; */
 }
 
 

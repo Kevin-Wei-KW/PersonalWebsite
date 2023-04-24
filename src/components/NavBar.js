@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useLayoutEffect} from "react";
 // import {Routes, Route, useNavigate} from 'react-router-dom';
+import $ from 'jquery';
 
 import pfp from "../images/profile_pic.jpg"
 
@@ -24,25 +25,71 @@ export default function NavBar(props) {
 
     const [navState, setNavState] = useState("NavNormal");
     const [height, width] = useWindowSize();
+
     
     useEffect(() => {
-        setNavState(width >= 1100? "NavNormal":"NavDropdown");
+        // setNavState(width >= 1100? "NavNormal":"NavDropdown");
+        setNavState(width >= 1100? "nav nav-normal":"nav nav-dropdown");
     }, [width])
     
 
     const[dropdownState, setDropdownState] = useState("Collapsed");
-    function handleHover() {
+    function handleNavHover() {
         setDropdownState("Expanded");
 
         // weird phenomenon, both expanded and collapsed are logged, but works perfectly
         // console.log("ACTIVE: MOUSEENTER")
         // console.log(dropdownState);
     }
-    function handleHoverLeave() {
+    function handleNavHoverLeave() {
         setDropdownState("Collapse");
+        projectHoverLeave();
     }
 
-    
+
+    const [projHover, setProjHover] = useState(false);
+    const [projDropHover, setProjDropHover] = useState(false);
+    /**
+     * handles hover events for project dropdown
+     * @param loc specifies location of hover 'button' or 'dropdown'
+     */
+    function projectHover() {
+        console.log('here');
+        // console.log("btn " + projBtnHover);
+        // console.log("drop " + projDropHover);
+        setProjHover(true);
+
+        if(navState === "nav nav-normal") {
+            $('.projects-dropdown').css('top', '50px');
+            $('.projects-dropdown').css('right', '215px');
+        } else {
+            $('.projects-dropdown').css('top', '120px');
+            $('.projects-dropdown').css('right', '235px');
+        }
+
+
+        // if(loc === 'button' && projBtnHover !== true) {
+        //     setProjBtnHover(true);
+        //     $('.projects-dropdown').css('opacity', 1);
+
+        //     // hovering over dropdown box only works after hovering over button
+        // } else if(loc === 'dropdown') {
+        //     if(projBtnHover === true) {
+        //         setProjDropHover(true);
+        //         $('.projects-dropdown').css('opacity', 1);
+        //     }
+        // }
+    }
+    function projectHoverLeave() {
+        setProjHover(false);
+        // if(loc === 'button' && !projDropHover) {
+        //     setProjBtnHover(false);
+        //     $('.projects-dropdown').css('opacity', 0);
+        // } else if (loc === 'dropdown') {
+        //     setProjDropHover(false);
+        //     $('.projects-dropdown').css('opacity', 0);
+        // }
+    }
 
     function getBackgroundColor(mode) {
         if(mode === "dark") {
@@ -67,7 +114,7 @@ export default function NavBar(props) {
     }
 
     return(
-        <div className="NavBar" onMouseLeave={handleHoverLeave} style={{color:getTextColor(props.mode)}}>
+        <div className="NavBar" onMouseLeave={handleNavHoverLeave} style={{color:getTextColor(props.mode)}}>
             <div className="NavLeft" id="normNavBtn">
                 <img src={pfp} alt="pfp"/>
 
@@ -81,17 +128,62 @@ export default function NavBar(props) {
             </a> */}
             
             {/* <div className="blank"></div> */}
+
             
-            <div className="Dropdown" id="normNavBtn">
-                <button className="dropbtn" onMouseOver={handleHover} style={{display: navState=="NavNormal"? "none":"inline-block"}}><i className="fa fa-caret-down"></i></button>
-                <div className={navState} id={dropdownState}>
-                    <li><a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Resume</a></li>
-                    <li><a onClick={()=>props.setPage("Experience")} style={{boxShadow: checkActive("Experience")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Experience</a></li>
-                    <li><a onClick={()=>props.setPage("Projects")} style={{boxShadow: checkActive("Projects")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Projects</a></li>
-                    <li><a onClick={()=>props.setPage("Education")} style={{boxShadow: checkActive("Education")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Education</a></li>
-                    <li><a onClick={()=>props.setPage("Skills")} style={{boxShadow: checkActive("Skills")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>Skills</a></li>
-                </div>
+            <div className={navState} id={dropdownState}>
+                <li>
+                    <a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                        Resume
+                    </a>
+                </li>
+                <li>
+                    <a onClick={()=>props.setPage("Experience")} style={{boxShadow: checkActive("Experience")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                        Experience
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        className="nav-project"
+                        onClick={()=>props.setPage("Projects")} style={{boxShadow: checkActive("Projects")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}
+                        onMouseOver={() => projectHover()}
+                        onMouseLeave={() => projectHoverLeave()}>
+                        Projects
+                        <i className="fa fa-caret-down" style={{'marginLeft':'7px'}}></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a onClick={()=>props.setPage("Education")} style={{boxShadow: checkActive("Education")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                        Education
+                    </a>
+                </li>
+                <li>
+                    <a onClick={()=>props.setPage("Skills")} style={{boxShadow: checkActive("Skills")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                        Skills
+                    </a>
+                </li>
+
             </div>
+
+            <div
+                className="projects-dropdown"
+                style={{display: projHover || projDropHover? 'flex':'none'}}
+                onMouseOver={() => setProjDropHover(true)}
+                onMouseLeave={() => setProjDropHover(false)}>
+                <a className="projects-option">Simple Shop</a>
+                <a className="projects-option">Math Connect</a>
+                <a className="projects-option">Web Scraper</a>
+                <a className="projects-option">Personal Website</a>
+                <a className="projects-option">Dart Board</a>
+            </div>
+
+            {navState ==="nav nav-dropdown"? 
+                <button className="dropbtn" onMouseOver={handleNavHover} style={{display: navState=="NavNormal"? "none":"inline-block", marginLeft: 'auto'}}><i className="fa fa-caret-down"></i></button>
+                :
+                ''
+            }
+
             
         </div>
     )

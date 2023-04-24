@@ -29,7 +29,7 @@ export default function Profile() {
                 </p>
                     
                 <p style={{textIndent: '30px'}}>
-                    While I'm not glued to my laptop, I enjoy reading (mainly fictions)
+                    While I'm not glued to my laptop, I enjoy reading novels
                     accompanied by some soothing music and a hot cup of coffee.
                     Of course, I'm also fond of a good workout to keep a routine.
                 </p>
