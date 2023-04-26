@@ -17,8 +17,8 @@ export default function Project() {
     return(
         <div className="Page Project">
 
-            <a id="SimpleShop"></a>
             <ProjectBox
+                id="SimpleShop"
                 link="https://github.com/kevin-wei-kw/SimpleShop"
                 title="Simple Shop"
                 techs="Java, JSP, H2 Database, Spring Boot, Spring MVC, Hibernate"
@@ -34,8 +34,8 @@ export default function Project() {
                 </ul>
             </ProjectBox>
 
-            <a id="MathConnect"></a>
             <ProjectBox
+                id="MathConnect"
                 link="https://github.com/kevin-wei-kw/MathConnect"
                 title="Math Connect"
                 techs="JavaScript, Bootstrap, HTML/CSS, SCSS"
@@ -50,8 +50,8 @@ export default function Project() {
                 </ul>
             </ProjectBox>
 
-            <a id="WebScraper"></a>
             <ProjectBox
+                id="WebScraper"
                 link="https://github.com/kevin-wei-kw/ECommerceWebScraper"
                 title="E-Commerce Web Scraper"
                 techs="Python, Flask, Selenium, HTML/CSS, Beautiful Soup"
@@ -65,8 +65,8 @@ export default function Project() {
                 </ul>
             </ProjectBox>
 
-            <a id="PersonalWebsite"></a>
             <ProjectBox
+                id="PersonalWebsite"
                 link="https://github.com/kevin-wei-kw/PersonalWebsite"
                 title="Kevin's Personal Website"
                 techs="ReactJS, HTML/CSS, JavaScript, NodeJS"
@@ -83,8 +83,8 @@ export default function Project() {
                 </div>
             </ProjectBox>
 
-            <a id="Dart"></a>
             <ProjectBox
+                id="Dart"
                 link="https://github.com/kevin-wei-kw/DartVolumeController"
                 title="Dart Volume Controller"
                 techs="JavaScript, Canvas, jQuery, HTML, CSS"
