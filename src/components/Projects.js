@@ -16,6 +16,8 @@ export default function Project() {
 
     return(
         <div className="Page Project">
+
+            <a id="SimpleShop"></a>
             <ProjectBox
                 link="https://github.com/kevin-wei-kw/SimpleShop"
                 title="Simple Shop"
@@ -32,6 +34,7 @@ export default function Project() {
                 </ul>
             </ProjectBox>
 
+            <a id="MathConnect"></a>
             <ProjectBox
                 link="https://github.com/kevin-wei-kw/MathConnect"
                 title="Math Connect"
@@ -47,6 +50,7 @@ export default function Project() {
                 </ul>
             </ProjectBox>
 
+            <a id="WebScraper"></a>
             <ProjectBox
                 link="https://github.com/kevin-wei-kw/ECommerceWebScraper"
                 title="E-Commerce Web Scraper"
@@ -61,6 +65,7 @@ export default function Project() {
                 </ul>
             </ProjectBox>
 
+            <a id="PersonalWebsite"></a>
             <ProjectBox
                 link="https://github.com/kevin-wei-kw/PersonalWebsite"
                 title="Kevin's Personal Website"
@@ -78,6 +83,7 @@ export default function Project() {
                 </div>
             </ProjectBox>
 
+            <a id="Dart"></a>
             <ProjectBox
                 link="https://github.com/kevin-wei-kw/DartVolumeController"
                 title="Dart Volume Controller"
