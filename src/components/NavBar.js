@@ -107,9 +107,19 @@ export default function NavBar(props) {
     }
     function getNavButtonEffect(mode) {
         if(mode === "dark") {
-            return "0 0 10px 10px rgb(50, 50, 50)";
+            return "0px 15px 8px -6px rgb(40, 40, 40)";
         } else {
             return "0 0 25px 5px rgb(150,150,150)"
+        }
+    }
+
+    const [navSelected, setNavSelected] = useState()
+    function getNavButtonClass(selectedPage) {
+        if(props.page === selectedPage) {
+            console.log("HERE");
+            return "nav-selected";
+        } else {
+            return "";
         }
     }
 
@@ -132,20 +142,20 @@ export default function NavBar(props) {
             
             <div className={navState} id={dropdownState}>
                 <li>
-                    <a onClick={()=>props.setPage("Resume")} style={{boxShadow: checkActive("Resume")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                    <a className={`${getNavButtonClass("Resume")}`} onClick={()=>props.setPage("Resume")}>
                         Resume
                     </a>
                 </li>
                 <li>
-                    <a onClick={()=>props.setPage("Experience")} style={{boxShadow: checkActive("Experience")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                    <a className={`${getNavButtonClass("Experience")}`} onClick={()=>props.setPage("Experience")}>
                         Experience
                     </a>
                 </li>
 
                 <li>
                     <a
-                        className="nav-project"
-                        onClick={()=>props.setPage("Projects")} style={{boxShadow: checkActive("Projects")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}
+                        className={`nav-project ${getNavButtonClass("Projects")}`}
+                        onClick={()=>props.setPage("Projects")}
                         onMouseOver={() => projectHover()}
                         onMouseLeave={() => projectHoverLeave()}>
                         Projects
@@ -154,12 +164,12 @@ export default function NavBar(props) {
                 </li>
 
                 <li>
-                    <a onClick={()=>props.setPage("Education")} style={{boxShadow: checkActive("Education")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                    <a className={`${getNavButtonClass("Education")}`} onClick={()=>props.setPage("Education")}>
                         Education
                     </a>
                 </li>
                 <li>
-                    <a onClick={()=>props.setPage("Skills")} style={{boxShadow: checkActive("Skills")?getNavButtonEffect(props.mode):"", borderRadius: "5px"}}>
+                    <a className={`${getNavButtonClass("Skills")}`} onClick={()=>props.setPage("Skills")}>
                         Skills
                     </a>
                 </li>
