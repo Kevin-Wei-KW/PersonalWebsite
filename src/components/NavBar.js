@@ -54,9 +54,6 @@ export default function NavBar(props) {
      * @param loc specifies location of hover 'button' or 'dropdown'
      */
     function projectHover() {
-        console.log('here');
-        // console.log("btn " + projBtnHover);
-        // console.log("drop " + projDropHover);
         setProjHover(true);
 
         if(navState === "nav nav-normal") {
@@ -116,7 +113,6 @@ export default function NavBar(props) {
     const [navSelected, setNavSelected] = useState()
     function getNavButtonClass(selectedPage) {
         if(props.page === selectedPage) {
-            console.log("HERE");
             return "nav-selected";
         } else {
             return "";
