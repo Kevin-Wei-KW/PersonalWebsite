@@ -21,6 +21,7 @@ export default function Education() {
                 <div className="EducationInfo">
 
                     <ul>
+                        <li>Named to <b>Dean's Honour List</b> in 1A term</li>
                         <li>ECE 150: Fundamentals of Programming</li>
                         <li className="sub">
                             Became proficient at <b>C++</b>. Further developed 
