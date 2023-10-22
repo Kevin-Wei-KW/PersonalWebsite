@@ -22,6 +22,10 @@ export default function Education() {
 
                     <ul>
                         <li>Named to <b>Dean's Honour List</b> in 1A term</li>
+                        <li>ECE 124: Digital Circuits and Systems</li>
+                        <li className="sub">
+                            Implemented various systems, such as traffic lights, by using <b>VHDL</b> 
+                        </li>
                         <li>ECE 150: Fundamentals of Programming</li>
                         <li className="sub">
                             Became proficient at <b>C++</b>. Further developed 

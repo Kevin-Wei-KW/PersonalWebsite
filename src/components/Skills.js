@@ -51,9 +51,9 @@ export default function Skills() {
                 </SkillItem>
                 <SkillItem 
                     name = "Python"
-                    level = {75}>
+                    level = {85}>
                     Experience: <u>3+ years</u> <br/>
-                    Developed web scrapers, automations, and other programs.
+                    Had work experience using it for full stack development. Also developed web scrapers, automations, and other programs.
                 </SkillItem>
                 <SkillItem 
                     name = "C++"
@@ -61,13 +61,6 @@ export default function Skills() {
                     Experience: <u>1+ years</u> <br/>
                     Wrote many programs, including a mine sweeper game and transactions tracker.
                     Taken C++ courses at Waterloo, learning pointers and OOP among other concepts.
-                </SkillItem>
-                <SkillItem 
-                    name = "HTML"
-                    level = {90}>
-                    Experience: <u>3+ years</u> <br/>
-                    Developed a plethora of websites of various functions, complete
-                    with different back-ends and frameworks.
                 </SkillItem>
                 <SkillItem 
                     name = "JavaScript"
@@ -85,6 +78,13 @@ export default function Skills() {
             </div>
 
             <div className="SkillSection">
+                <SkillItem 
+                    name = "HTML"
+                    level = {90}>
+                    Experience: <u>3+ years</u> <br/>
+                    Developed a plethora of websites of various functions, complete
+                    with different back-ends and frameworks.
+                </SkillItem>
                 <SkillItem 
                     name = "CSS"
                     level = {80}>
@@ -131,17 +131,20 @@ export default function Skills() {
                     a database and a user login system.
                 </SkillItem>
                 <SkillItem
-                    name = "NodeJS"
-                    level = {40}>
-                    Experience: <u>1 year</u> <br/>
-                    Used alongside ReactJS. Implemented file manipulation programs.
-                </SkillItem>
-                <SkillItem
                     name = "Flask"
                     level = {70}>
                     Experience: <u>1 year</u> <br/>
                     Developed the front-end of an e-commerce webscraper that scrapes dynamic websites and
                     displays extracted info on my web page.
+                </SkillItem>
+            </div>
+
+            <div className="SkillSection">
+                <SkillItem
+                    name = "NodeJS"
+                    level = {40}>
+                    Experience: <u>1 year</u> <br/>
+                    Used alongside ReactJS. Implemented file manipulation programs.
                 </SkillItem>
                 <SkillItem
                     name = "Selenium"
@@ -149,9 +152,6 @@ export default function Skills() {
                     Experience: <u>1 year</u> <br/>
                     Included in webscraper for browser automation to mimic human inquiry.  
                 </SkillItem>
-            </div>
-
-            <div className="SkillSection">
                 <SkillItem
                     name = "NuxtJS"
                     level = {75}>
@@ -169,6 +169,21 @@ export default function Skills() {
                     level = {60}>
                     Experience: <u>1 year</u> <br/>
                     Implemented physics mechanics for my dart game by manipulating HTML elements for animation.
+                </SkillItem>
+            </div>
+
+            <div className="SkillSection">
+                <SkillItem
+                    name = "Pandas"
+                    level = {75}>
+                    Experience: <u>1 year</u> <br/>
+                    Had work experience extracting CSV data for ETL process. Also used extensively for CRUD processes in expense tracker app.
+                </SkillItem>
+                <SkillItem
+                    name = "Kivy"
+                    level = {70}>
+                    Experience: <u>1 year</u> <br/>
+                    Developed an expense tracker with functions to read and write transactions to spreadsheets.
                 </SkillItem>
                 <SkillItem
                     name = "Regular Expression"
@@ -219,7 +234,7 @@ export default function Skills() {
                 <SkillItem
                     name = "Drawing"
                     level = {10}>
-                    Well, it was worth a try. I think I'll stick to drawing physics and circuit diagrams...
+                    Well, if drawing physics and circuit diagrams counts...
                 </SkillItem>
                 <SkillItem
                     name = "Cooking"

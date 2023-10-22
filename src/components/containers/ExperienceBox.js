@@ -18,7 +18,7 @@ export default function ExperienceBox(props) {
             </div>
 
             <h4 style={{margin: '0 0 0 5px'}}>
-                Skills: {props.techs} 
+                Skills: {props.skills} 
             </h4>
             <p style={{margin: '5px 0 0 5px', fontSize: '14px'}}>
                 {props.period}

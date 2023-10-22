@@ -1,6 +1,4 @@
 import React from "react";
-import { useState } from 'react';
-import $ from 'jquery';
 
 export default function SkillItem(props) {
 
