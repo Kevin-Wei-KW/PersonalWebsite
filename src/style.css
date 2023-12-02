@@ -561,6 +561,7 @@ b {
 
     box-shadow: 0 0 25px 20px rgb(25, 25, 25);
     border: 2px solid black;
+    transition: 0.25s;
 } 
 .ProjectInfo img:hover {
     margin-left: 0px;

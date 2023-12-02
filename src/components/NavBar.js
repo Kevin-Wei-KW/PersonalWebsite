@@ -186,7 +186,7 @@ export default function NavBar(props) {
             </div>
 
             {navState ==="nav nav-dropdown"? 
-                <button className="dropbtn" onMouseOver={handleNavHover} style={{display: navState=="NavNormal"? "none":"inline-block", marginLeft: 'auto'}}><i className="fa fa-caret-down"></i></button>
+                <button className="dropbtn" onMouseOver={handleNavHover} style={{display: navState=="NavNormal"? "none":"inline-block", marginLeft: 'auto'}}><i className="fa-solid fa-bars"></i></button>
                 :
                 ''
             }

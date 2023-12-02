@@ -6,6 +6,14 @@ export default function Skills() {
 
     return(
         <div className="Page Skills">
+
+            <div style={{backgroundColor:"rgb(25, 25, 25)",
+                         boxShadow:"0px 0px 5px 10px rgb(25,25,25)",
+                         borderRadius:"10px",
+                         padding:"10px"}}>
+                
+                Hover skill bars for more info!             
+            </div>
             
             <h1>Human Languages</h1>
             <div className="SkillSection">
@@ -113,7 +121,7 @@ export default function Skills() {
                     name = "ReactJS"
                     level = {80}>
                     Experience: <u>1 year</u> <br/>
-                    Created numerous websites that are highly reactive, including my personal website.
+                    Created numerous websites, including this personal website and a full stack Expense Tracker app.
                 </SkillItem>
                 <SkillItem
                     name = "VueJS"
@@ -134,8 +142,7 @@ export default function Skills() {
                     name = "Flask"
                     level = {70}>
                     Experience: <u>1 year</u> <br/>
-                    Developed the front-end of an e-commerce webscraper that scrapes dynamic websites and
-                    displays extracted info on my web page.
+                    Developed an API with endpoints for my Expense Tracker project that gets/posts transactional data with React frontend.
                 </SkillItem>
             </div>
 
