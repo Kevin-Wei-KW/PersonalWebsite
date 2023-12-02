@@ -1,7 +1,5 @@
 import React from "react";
 
-import formalpic from "../images/formal_pic.jpg"
-
 export default function Profile() {
     return(
         <div className="Profile">

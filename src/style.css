@@ -562,6 +562,12 @@ b {
     box-shadow: 0 0 25px 20px rgb(25, 25, 25);
     border: 2px solid black;
 } 
+.ProjectInfo img:hover {
+    margin-left: 0px;
+    height: 500px;
+    max-width: 800px;
+    transition-duration: 0.5s;
+}
 .LightMainContent .ProjectInfo img {
     box-shadow: 0 0 25px 25px rgb(175,175,175);
     border: 2px solid white;

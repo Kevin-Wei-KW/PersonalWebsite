@@ -2,6 +2,7 @@ import React, {useState} from "react";
 
 import ProjectBox from "./containers/ProjectBox.js";
 
+import expenseTrackerGif from "../images/expense_tracker.gif";
 import simpleShopGif from "../images/simple_shop.gif";
 import mathConnectGif from "../images/math_connect.gif";
 import webScraperGif from "../images/ecommerce_web_scraper.gif";
@@ -16,6 +17,21 @@ export default function Project() {
 
     return(
         <div className="Page Project">
+
+            <ProjectBox
+                id="ExpenseTracker"
+                link="https://github.com/Kevin-Wei-KW/expense-tracker"
+                title="Expense Tracker"
+                techs="Python, React.js, Flask, Javascript, Pandas, Google Sheets API"
+                import={expenseTrackerGif}
+                alt="Expense Tracker Gif">
+                <ul>
+                    <li>A Full Stack web application designed to make tracking expenses easy and compatible with Google spreadsheets.</li>
+                    <li>Developed using <b>React.js</b> frontend and <b>Python</b> backend.</li>
+                    <li>Connects to Google Sheets API through <b>Flask</b> endpoints, using <b>Pandas</b> to format POST and GET data to and from the app.</li>
+                    <li>Organizes personal expenses for a polished display on phone screens with pages designed using <b>mobile-first</b> approach.</li>
+                </ul>
+            </ProjectBox>
 
             <ProjectBox
                 id="SimpleShop"
