@@ -13,10 +13,11 @@ export default function Experience() {
                 period="September 2023 - December 2023 | 4 months">
                 <ul>
                     <li>Worked on an <b>Business-Intelligence</b> platform used in handling and evaluating proprietary data built upon <b>Machine Learning</b>.</li>
-                    <li>Implemented data <b>ETL</b> process converting from CSV to <b>MongoDB</b>.</li>
-                    <li>Construct Data Nodes with complex Data Models in <b>Python</b> to facilitate <b>Natural Language Processing</b>.</li>
-                    <li>Designed an intuitive Product Tour with <b>TypeScript</b> and <b>VueJS</b> to facilitate an effortless onboarding process.
-</li>
+                    <li>Implemented ETL data process connecting user imported files to <b>MongoDB</b>, through async endpoints in <b>FastAPI</b>.</li>
+                    <li>Developed efficient computing techniques in <b>Python</b> to process <b>10000+</b> data points in <b>&lt; 3</b> seconds on average.</li>
+                    <li>Designed a Data Manager page with <b>Vue.js</b> and <b>TypeScript</b>  to help users process ETL in <b>4</b> clicks.</li>
+                    <li>Built and tested frontend with backend script and database with <b>Docker</b> containers.</li>
+                    <li>Designed an intuitive Product Tour with <b>TypeScript</b> and <b>VueJS</b> to facilitate an effortless onboarding process.</li>
                 </ul>
             </ExperienceBox>
 
