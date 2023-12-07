@@ -20,7 +20,7 @@ export default function Project() {
 
             <ProjectBox
                 id="ExpenseTracker"
-                link="https://github.com/Kevin-Wei-KW/expense-tracker"
+                link="https://github.com/Kevin-Wei-KW/expense-tracker/tree/demo"
                 title="Expense Tracker"
                 techs="Python, React.js, Flask, Javascript, Pandas, Google Sheets API"
                 import={expenseTrackerGif}
