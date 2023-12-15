@@ -26,9 +26,9 @@ export default function Project() {
                 import={expenseTrackerGif}
                 alt="Expense Tracker Gif">
                 <ul>
-                    <li>A Full Stack web application designed to make tracking expenses easy and compatible with Google spreadsheets.</li>
-                    <li>Developed using <b>React.js</b> frontend and <b>Python</b> backend.</li>
-                    <li>Connects to Google Sheets API through <b>Flask</b> endpoints, using <b>Pandas</b> to format POST and GET data to and from the app.</li>
+                    <li>A Full Stack web application designed to make tracking expenses easy and connected with Google spreadsheets.</li>
+                    <li>Developed using <b>React.js</b> frontend, <b>Python</b> backend and Google API to sync data.</li>
+                    <li>Created a RESTful <b>Flask</b> API and used <b>Pandas</b> to format POST/GET data.</li>
                     <li>Organizes personal expenses for a polished display on phone screens with pages designed using <b>mobile-first</b> approach.</li>
                 </ul>
             </ProjectBox>
