@@ -12,12 +12,13 @@ export default function Experience() {
                 skills="Python, MongoDB, Pandas, VueJS, Typescript, Docker, ETL"
                 period="September 2023 - December 2023 | 4 months">
                 <ul>
-                    <li>Worked on an <b>Business-Intelligence</b> platform used in handling and evaluating proprietary data built upon <b>Machine Learning</b>.</li>
-                    <li>Implemented ETL data process connecting user imported files to <b>MongoDB</b>, through async endpoints in <b>FastAPI</b>.</li>
-                    <li>Developed efficient computing techniques in <b>Python</b> to process <b>10000+</b> data points in <b>&lt; 3</b> seconds on average.</li>
-                    <li>Designed a Data Manager page with <b>Vue.js</b> and <b>TypeScript</b>  to help users process ETL in <b>4</b> clicks.</li>
-                    <li>Built and tested frontend with backend script and database with <b>Docker</b> containers.</li>
-                    <li>Designed an intuitive Product Tour with <b>TypeScript</b> and <b>VueJS</b> to facilitate an effortless onboarding process.</li>
+                    <li>Worked on a <b>Business-Intelligence</b> platform built atop Machine Learning language models, which evaluates
+                    financial data to provide statistics and insights.</li>
+                    <li>Implemented data <b>ETL</b> pipeline with <b>Python</b> through async <b>FastAPI</b>FastAPI endpoints, processing <b>10,000+</b> data points
+                    from user imported files to <b>MongoDB</b> with <b>less than 3 seconds</b> of latency.</li>
+                    <li>Designed a Data Management page with <b>TypeScript</b> and <b>Vue.js</b>, letting users customize ETL processes and enforce
+                    data governance settings.</li>
+                    <li>Developed both frontend and backend in a fully <b>Dockerized</b> environment with multiple containers.</li>
                 </ul>
             </ExperienceBox>
 

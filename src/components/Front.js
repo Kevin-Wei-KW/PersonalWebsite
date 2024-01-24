@@ -22,7 +22,7 @@ export default function Front(props) {
         } else if(props.page === "Skills") {
             return <Skills/>;
         } else {
-            return <Profile/>;
+            return <Profile setPage={props.setPage}/>;
         }
     }
 

@@ -6,15 +6,15 @@ export default function ExperienceBox(props) {
         <div className="ExperienceContainer">
             <div className="ExperienceHeader">
                 <h1>
+                    {props.position}
+                    {/* <i style={{fontSize: '25px', marginLeft:'5px'}} className="fa">&#xf08e;</i> */}
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+                </h1>
+                <h2>
                     <a href={props.link}>
                         {props.company}     
                     </a>
-                    <i style={{fontSize: '25px', marginLeft:'5px'}} className="fa">&#xf08e;</i>
-                    &nbsp;&nbsp;|&nbsp;&nbsp;
-                </h1>
-                <h3>
-                    {props.position}
-                </h3>
+                </h2>
             </div>
 
             <h4 style={{margin: '0 0 0 5px'}}>

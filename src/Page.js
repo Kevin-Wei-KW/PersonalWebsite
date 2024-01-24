@@ -44,6 +44,7 @@ export default function Page() {
             />
             <Front
                 page = {pageSelector}
+                setPage = {setPageSelector}
                 mode = {mode}
             />
 

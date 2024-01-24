@@ -22,7 +22,7 @@ export default function Project() {
                 id="ExpenseTracker"
                 link="https://github.com/Kevin-Wei-KW/expense-tracker/tree/demo"
                 title="Expense Tracker"
-                techs="Python, React.js, Flask, Javascript, Pandas, Google Sheets API"
+                techs="Python, React.js, Flask, Javascript, Pandas, Google Cloud Platform"
                 import={expenseTrackerGif}
                 alt="Expense Tracker Gif">
                 <ul>
@@ -30,6 +30,11 @@ export default function Project() {
                     <li>Developed using <b>React.js</b> frontend, <b>Python</b> backend and Google API to sync data.</li>
                     <li>Created a RESTful <b>Flask</b> API and used <b>Pandas</b> to format POST/GET data.</li>
                     <li>Organizes personal expenses for a polished display on phone screens with pages designed using <b>mobile-first</b> approach.</li>
+                    
+                    <li>A Full Stack web application designed for mobile to make tracking expenses easy with Google Sheets.</li>
+                    <li>Developed with <b>React.js</b>, <b>Python</b> and <b>Google Cloud Platform</b> to sync and display thousands of transaction records.</li>
+                    <li>Created a RESTful <b>Flask</b> API and used <b>Pandas</b> to format data passed through <b>Axios</b> POST/GET requests.</li>
+                    <li>Integrated Google Login with <b>OAuth 2.0</b> authentication to access Google Sheets API with tokens and credentials.</li>
                 </ul>
             </ProjectBox>
 
@@ -37,7 +42,7 @@ export default function Project() {
                 id="SimpleShop"
                 link="https://github.com/kevin-wei-kw/SimpleShop"
                 title="Simple Shop"
-                techs="Java, JSP, H2 Database, Spring Boot, Spring MVC, Hibernate"
+                techs="Java, JSP, H2 Database, Spring Boot, Spring MVC, Hibernate, Maven"
                 import={simpleShopGif}
                 alt="Simple Shop Gif">
                 <ul>

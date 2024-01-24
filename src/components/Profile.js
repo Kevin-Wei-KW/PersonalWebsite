@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Profile() {
+export default function Profile(props) {
     return(
         <div className="Profile">
             <div className="NameInfo">
@@ -11,6 +11,9 @@ export default function Profile() {
                     currently studying Computer Engineering 
                     at the University of Waterloo. 
                 </p>
+                <p>
+                    Feel free to contact me about any inquiries!
+                </p>
 
                 <ul>
                     <li><a href="https://github.com/kevin-wei-kw"><i className="fa fa-github"></i></a></li>
@@ -19,18 +22,19 @@ export default function Profile() {
             </div>
 
             <div className="About">
-                <p style={{textIndent: '30px'}}>
-                    During my free time, I work on a plethora of different coding projects, 
-                    learning how to use various tech stacks and programming languages.
-                    I am always looking for new challenges and experiences to continue developing
-                    my skillset.
-                </p>
-                    
-                <p style={{textIndent: '30px'}}>
+                <h3 className="quick-link" onClick={() => props.setPage("Projects")}>
+                    Check out my Projects &nbsp; <i class="fas fa-arrow-right"></i>
+                </h3>
+                <h3 className="quick-link" onClick={() => props.setPage("Experience")}>
+                    Previous Work Experiences &nbsp;  <i class="fas fa-arrow-right"></i>
+                </h3>
+                <h3 className="quick-link" onClick={() => props.setPage("Resume")}>My Resume &nbsp; <i class="fas fa-arrow-right"></i></h3>
+                {/* <p style={{textIndent: '30px'}}>
+                
                     While I'm not glued to my laptop, I enjoy reading novels
                     accompanied by some soothing music and a hot cup of coffee.
                     Of course, I'm also fond of a good workout to keep a routine.
-                </p>
+                </p> */}
             </div>
 
             {/* <div className="shadow"><img className="FormalPic" src={formalpic} alt="Formal Pic"/></div> */}

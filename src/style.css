@@ -314,7 +314,7 @@ b {
     
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     min-width: 700px;
 }
 
@@ -386,7 +386,7 @@ b {
     margin-top: 10vh;
 }
 
-.About p {
+.About p, .quick-link{
     color: beige;   
     font-weight: 600;
     background-color: black;
@@ -397,9 +397,12 @@ b {
 
     transition: all 0.3s;
 }
-.About p:hover {
+.About p:hover, .quick-link:hover{
     background-color: rgb(50, 50, 50);
     box-shadow: 10px 10px 5px 10px rgb(25,25,25);
+}
+.quick-link {
+    cursor: pointer;
 }
 
 
