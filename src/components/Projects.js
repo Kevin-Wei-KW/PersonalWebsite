@@ -26,15 +26,10 @@ export default function Project() {
                 import={expenseTrackerGif}
                 alt="Expense Tracker Gif">
                 <ul>
-                    <li>A Full Stack web application designed to make tracking expenses easy and connected with Google spreadsheets.</li>
-                    <li>Developed using <b>React.js</b> frontend, <b>Python</b> backend and Google API to sync data.</li>
-                    <li>Created a RESTful <b>Flask</b> API and used <b>Pandas</b> to format POST/GET data.</li>
-                    <li>Organizes personal expenses for a polished display on phone screens with pages designed using <b>mobile-first</b> approach.</li>
-                    
-                    <li>A Full Stack web application designed for mobile to make tracking expenses easy with Google Sheets.</li>
-                    <li>Developed with <b>React.js</b>, <b>Python</b> and <b>Google Cloud Platform</b> to sync and display thousands of transaction records.</li>
-                    <li>Created a RESTful <b>Flask</b> API and used <b>Pandas</b> to format data passed through <b>Axios</b> POST/GET requests.</li>
-                    <li>Integrated Google Login with <b>OAuth 2.0</b> authentication to access Google Sheets API with tokens and credentials.</li>
+                    <li>Developed a mobile-friendly expense tracking web app with <b>React.js</b> and <b>Python</b>, along with integration of <b>Google Cloud Platform</b> and Google Sheets.</li>
+                    <li>Utilised <b>Pandas</b> to format and aggregate thousands of transaction data points, and employed <b>Axios</b> to transmit this data via POST/GET requests to the app's backend API service.</li>
+                    <li>Designed a RESTful <b>Flask</b> API that performs stateless authentication by exchanging <b>JSON Web Tokens</b> (JWT) containing HS256 encrypted user access tokens.</li>
+                    <li>Integrated Google Login with <b>OAuth 2.0</b> authentication to access Google Sheets API by verifying tokens and credentials with Google Authorization Servers.</li>
                 </ul>
             </ProjectBox>
 
