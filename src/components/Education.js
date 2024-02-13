@@ -21,15 +21,32 @@ export default function Education() {
                 <div className="EducationInfo">
 
                     <ul>
-                        <li>Named to <b>Dean's Honour List</b> in 1A term</li>
+                        <li>Named to <b>Dean's Honour List</b> in 2023 (3.9 GPA)</li>
+                        <li>ECE 250: Algorithms and Data Structure</li>
+                        <li className="sub">
+                            Practiced data structures such as <b>Linked Lists, Queues, Stacks, and Trees</b>.
+                        </li>
+                        <li className="sub">
+                            Learned algorithms involving <b>Searching, Sorting, and DP</b>.
+                        </li>
+                        <li className="sub">
+                            Gained a deeper grasp on <b>Object-Oriented Programming</b>.
+                        </li>
+                        <li>ECE 204: Numerical Methods</li>
+                        <li className="sub">
+                            Used <b>MATLAB</b> and <b>C++</b> to interpolate data points.
+                        </li>
+                        <li>ECE 222: Digital Computers</li>
+                        <li className="sub">
+                            Implemented various systems with <b>ARM Assembly</b>.
+                        </li>
                         <li>ECE 124: Digital Circuits and Systems</li>
                         <li className="sub">
-                            Implemented various systems, such as traffic lights, by using <b>VHDL</b> 
+                            Learned and used <b>VHDL</b>. 
                         </li>
                         <li>ECE 150: Fundamentals of Programming</li>
                         <li className="sub">
-                            Became proficient at <b>C++</b>. Further developed 
-                            skills in algorithms and data structures.
+                            Became proficient at <b>C++</b>.
                         </li>
                         <li>ECE 198: Project Studio</li>
                         <li className="sub">

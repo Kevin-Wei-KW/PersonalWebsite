@@ -41,12 +41,10 @@ export default function Project() {
                 import={simpleShopGif}
                 alt="Simple Shop Gif">
                 <ul>
-                    <li>An online e-commerce hub developed primarily with <b>Java</b> that allows items to be posted for sale.</li>
-                    <li>Developed a Full Stack website with <b>JSP</b> and <b>Spring Boot</b>.</li>
+                    <li>An e-commerce website developed with <b>Java</b>, <b>JSP</b>, and <b>Spring Boot</b> for buying and selling second-hand items.</li>
                     <li>Applied the MVC architectural pattern with <b>Spring MVC</b> for ease of organization and development.</li>
-                    <li>Configured login and posting system with <b>H2 Database Engine</b> to store encrypted user and posting information.</li>
+                    <li>Configured a database with <b>H2 Database Engine</b> to store user info and items, which are accessed with <b>HQL</b> queries.</li>
                     <li>Utilised <b>HttpSession</b> to customize website display for logged-in users.</li>
-                    <li>Designed filter to categorize and paginate items with <b>HQL queries</b>.</li>
                 </ul>
             </ProjectBox>
 
@@ -58,11 +56,11 @@ export default function Project() {
                 import={mathConnectGif}
                 alt="Math Connect Gif">
                 <ul>
-                    <li>Designed a responsive and intuitive UI with JavaScript and Bootstrap.</li>
+                    <li>Designed an interactive website with responsive and intuitive UI using <b>JavaScript</b> and <b>Bootstrap</b> for my non-profit.</li>
+                    <li>• Registered a custom domain <a href="https://mathconnect.ca/"><b>mathconnect.ca</b></a> regularly used by 100+ users.</li>
                     <li>Incorporated Animate on scroll <b>AOS</b> library to enhance UX fluidity.</li>
-                    <li>Embedded external programs into website <b>Google Drive, Google Form, Mail Client</b>.</li>
-                    <li>Embedded particle simulations for visual and interactive enhancement.</li>
-                    <li>Registered a custom domain <a href="https://mathconnect.ca/"><b>mathconnect.ca</b></a> visited regularly by <b>100+</b> members.</li>
+                    <li>Embedded external programs into website, such as <b>Google Drive, Google Form, Mail Client</b>.</li>
+                    <li>Added a particle simulations for visual and interactive enhancement.</li>
                 </ul>
             </ProjectBox>
 

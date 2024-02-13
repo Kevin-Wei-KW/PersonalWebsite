@@ -59,9 +59,9 @@ export default function Skills() {
                 </SkillItem>
                 <SkillItem 
                     name = "Python"
-                    level = {85}>
+                    level = {95}>
                     Experience: <u>3+ years</u> <br/>
-                    Had work experience using it for full stack development. Also developed web scrapers, automations, and other programs.
+                    Had work experience using it for full stack development. Also used it to develop various personal projects.
                 </SkillItem>
                 <SkillItem 
                     name = "C++"
@@ -72,7 +72,7 @@ export default function Skills() {
                 </SkillItem>
                 <SkillItem 
                     name = "JavaScript"
-                    level = {85}>
+                    level = {90}>
                     Experience: <u>3+ years</u> <br/>
                     Had work experience developing a web application.
                     Also worked on various other personal projects, from dart game animation to full-stack.
@@ -119,7 +119,7 @@ export default function Skills() {
             <div className="SkillSection">
                 <SkillItem
                     name = "ReactJS"
-                    level = {80}>
+                    level = {85}>
                     Experience: <u>1 year</u> <br/>
                     Created numerous websites, including this personal website and a full stack Expense Tracker app.
                 </SkillItem>
@@ -149,7 +149,7 @@ export default function Skills() {
             <div className="SkillSection">
                 <SkillItem
                     name = "NodeJS"
-                    level = {40}>
+                    level = {45}>
                     Experience: <u>1 year</u> <br/>
                     Used alongside ReactJS. Implemented file manipulation programs.
                 </SkillItem>
@@ -182,15 +182,9 @@ export default function Skills() {
             <div className="SkillSection">
                 <SkillItem
                     name = "Pandas"
-                    level = {75}>
+                    level = {80}>
                     Experience: <u>1 year</u> <br/>
                     Had work experience extracting CSV data for ETL process. Also used extensively for CRUD processes in expense tracker app.
-                </SkillItem>
-                <SkillItem
-                    name = "Kivy"
-                    level = {70}>
-                    Experience: <u>1 year</u> <br/>
-                    Developed an expense tracker with functions to read and write transactions to spreadsheets.
                 </SkillItem>
                 <SkillItem
                     name = "Regular Expression"
@@ -212,7 +206,12 @@ export default function Skills() {
                     Experience: <u>&lt;1 year</u> <br/>
                     Conducted End-To-End Testing and Unit Testing on professional web applications. 
                     Particularly designed extensive tests on CRUDs.
-
+                </SkillItem>
+                <SkillItem
+                    name = "Kivy"
+                    level = {70}>
+                    Experience: <u>1 year</u> <br/>
+                    Developed an expense tracker with functions to read and write transactions to spreadsheets.
                 </SkillItem>
             </div>
 
@@ -222,7 +221,7 @@ export default function Skills() {
                     name = "Typing"
                     level = {95}>
                     Fastest Typing Speed: <u>155 wpm</u> <br/>
-                    Average Typing Speed: <u>117 wpm</u> <br/>
+                    Average Typing Speed: <u>118 wpm</u> <br/>
                     <br/>
                     Source: <a href="https://monkeytype.com/">monkeytype</a>
                 </SkillItem>
@@ -239,22 +238,10 @@ export default function Skills() {
                     My favourite leisure sport to play with family and friends. Played on and off since elementary.
                 </SkillItem>
                 <SkillItem
-                    name = "Drawing"
-                    level = {10}>
-                    Well, if drawing physics and circuit diagrams counts...
-                </SkillItem>
-                <SkillItem
                     name = "Cooking"
-                    level = {40}>
+                    level = {45}>
                     Experience: <u>Beginner</u> <br/>
-                    One of my methods of relieving stress. Cooking something nice on a weekend, while listening
-                    to some relaxing music brings me peace.
-                </SkillItem>
-                <SkillItem
-                    name = "Gaming"
-                    level = {60}>
-                    Not the biggest gamer, but enjoys a variety of games, particularly strategy ones. This
-                    inspired me to study game development and experiment with creating games of my own.
+                    One of my methods of relieving stress. Nothing that will turn heads, but enough to cook a fulfilling meal.
                 </SkillItem>
 
             </div>
