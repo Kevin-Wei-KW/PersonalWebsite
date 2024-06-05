@@ -29,7 +29,7 @@ export default function Skills() {
                     name = "Mandarin"
                     level = {90}>
                     Experience: <u>Native</u> <br/>
-                    I am almost fully fluent in it, easily capable of
+                    I am near fully fluent, easily capable of
                     conducting myself even in professional environments.
                 </SkillItem>
                 <SkillItem 
@@ -118,6 +118,66 @@ export default function Skills() {
             <h1>Technologies</h1>
             <div className="SkillSection">
                 <SkillItem
+                    name = "Flask"
+                    level = {80}>
+                    Experience: <u>2+ years</u> <br/>
+                    Developed an API with endpoints for my Expense Tracker project that gets/posts transactional data with React frontend.
+                </SkillItem>
+                <SkillItem
+                    name = "PyTorch"
+                    level = {75}>
+                    Experience: <u>1 year</u> <br/>
+                    Develop and fine-tuned various LLMs during past Co-ops.
+                </SkillItem>
+                <SkillItem
+                    name = "FastAPI"
+                    level = {70}>
+                    Experience: <u>2 years</u> <br/>
+                    Had work experience developing API endpoints in past Co-ops.
+                </SkillItem>
+                <SkillItem
+                    name = "Pandas"
+                    level = {80}>
+                    Experience: <u>1 year</u> <br/>
+                    Preprocessed various forms of datasets for tuning LLMs during Co-op. Also developed an ETL pipeline.
+                </SkillItem>
+            </div>
+
+            <div className="SkillSection">
+                <SkillItem
+                    name = "AWS"
+                    level = {65}>
+                    Experience: <u>1 year </u> <br/>
+                    Used AWS SageMaker, S3, and ECR for model training and data control during Co-op.
+                </SkillItem>
+                <SkillItem
+                    name = "GCP"
+                    level = {70}>
+                    Experience: <u>1+ years </u> <br/>
+                    Developed Expense Tracker project with Google Authentication and Google API with GCP.
+                </SkillItem>
+                <SkillItem
+                    name = "JupyterLab"
+                    level = {60}>
+                    Experience: <u>1 year </u> <br/>
+                    Used JupyterLab to facilitate LLM development in past work experience.
+                </SkillItem>
+                <SkillItem
+                    name = "Docker"
+                    level = {75}>
+                    Experience: <u>1+ years </u> <br/>
+                    During past work experience, pulled images from AWS through Docker to work in a unified environment.
+                </SkillItem>
+                <SkillItem
+                    name = "MongoDB"
+                    level = {85}>
+                    Experience: <u>1+ years </u> <br/>
+                    Developed many data flows with MongoDB in past Co-ops.
+                </SkillItem>
+            </div>
+
+            <div className="SkillSection">
+                <SkillItem
                     name = "ReactJS"
                     level = {85}>
                     Experience: <u>1 year</u> <br/>
@@ -132,38 +192,34 @@ export default function Skills() {
                     highly flexible and interactive components, used dozens of times across the app.
                 </SkillItem>
                 <SkillItem
-                    name = "Spring"
-                    level = {70}>
-                    Experience: <u>1+ years </u> <br/>
-                    Developed a e-commerce website with Spring and JSP using the MVC design, complete with
-                    a database and a user login system.
-                </SkillItem>
-                <SkillItem
-                    name = "Flask"
-                    level = {70}>
-                    Experience: <u>1 year</u> <br/>
-                    Developed an API with endpoints for my Expense Tracker project that gets/posts transactional data with React frontend.
-                </SkillItem>
-            </div>
-
-            <div className="SkillSection">
-                <SkillItem
                     name = "NodeJS"
-                    level = {45}>
-                    Experience: <u>1 year</u> <br/>
-                    Used alongside ReactJS. Implemented file manipulation programs.
-                </SkillItem>
-                <SkillItem
-                    name = "Selenium"
                     level = {50}>
                     Experience: <u>1 year</u> <br/>
-                    Included in webscraper for browser automation to mimic human inquiry.  
+                    Used alongside ReactJS. Implemented file manipulation programs.
                 </SkillItem>
                 <SkillItem
                     name = "NuxtJS"
                     level = {75}>
                     Experience: <u>1 year</u> <br/>
                     Had work experience developing an intuitive and convenient navigation system for a financial modelling application.
+                </SkillItem>
+                <SkillItem
+                    name = "Spring"
+                    level = {70}>
+                    Experience: <u>1+ years </u> <br/>
+                    Developed a e-commerce website with Spring and JSP using the MVC design, complete with
+                    a database and a user login system.
+                </SkillItem>
+            </div>
+
+
+
+            {/* <div className="SkillSection">
+                <SkillItem
+                    name = "Selenium"
+                    level = {50}>
+                    Experience: <u>1 year</u> <br/>
+                    Included in webscraper for browser automation to mimic human inquiry.  
                 </SkillItem>
                 <SkillItem
                     name = "Bootstrap"
@@ -180,12 +236,6 @@ export default function Skills() {
             </div>
 
             <div className="SkillSection">
-                <SkillItem
-                    name = "Pandas"
-                    level = {80}>
-                    Experience: <u>1 year</u> <br/>
-                    Had work experience extracting CSV data for ETL process. Also used extensively for CRUD processes in expense tracker app.
-                </SkillItem>
                 <SkillItem
                     name = "Regular Expression"
                     level = {80}>
@@ -213,7 +263,7 @@ export default function Skills() {
                     Experience: <u>1 year</u> <br/>
                     Developed an expense tracker with functions to read and write transactions to spreadsheets.
                 </SkillItem>
-            </div>
+            </div> */}
 
             <h1>Miscellaneous Skills</h1>
             <div className="SkillSection">

@@ -21,7 +21,7 @@ export default function Education() {
                 <div className="EducationInfo">
 
                     <ul>
-                        <li>Named to <b>Dean's Honour List</b> in 2023 (3.9 GPA)</li>
+                        <li>Named to <b>Dean's Honour List</b> (4.0 GPA)</li>
                         <li>ECE 250: Algorithms and Data Structure</li>
                         <li className="sub">
                             Practiced data structures such as <b>Linked Lists, Queues, Stacks, and Trees</b>.
