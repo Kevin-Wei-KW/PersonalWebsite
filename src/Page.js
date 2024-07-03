@@ -14,9 +14,9 @@ export default function Page() {
 
     function getMainContentMode(mode) {
         if(mode === "dark") {
-            return "DarkMainContent";
+            return "Page DarkMainContent";
         } else {
-            return "LightMainContent";
+            return "Page LightMainContent";
         }
     }
     function getBackgroundColor(mode) {

@@ -3,7 +3,7 @@ import React from "react";
 export default function Experience() {
 
     return(
-        <div className="Page Volunteer">
+        <div className="Volunteer">
             <div className="VolunteerContainer">
                 <h1>
                     <a href="https://gochartd.com">

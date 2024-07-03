@@ -26,7 +26,7 @@ export default function Profile(props) {
                     Check out my Projects &nbsp; <i class="fas fa-arrow-right"></i>
                 </h3>
                 <h3 className="quick-link" onClick={() => props.setPage("Experience")}>
-                    Previous Work Experiences &nbsp;  <i class="fas fa-arrow-right"></i>
+                    Work Experiences &nbsp;  <i class="fas fa-arrow-right"></i>
                 </h3>
                 <h3 className="quick-link" onClick={() => props.setPage("Resume")}>My Resume &nbsp; <i class="fas fa-arrow-right"></i></h3>
                 {/* <p style={{textIndent: '30px'}}>

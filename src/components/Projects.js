@@ -16,7 +16,7 @@ export default function Project() {
     }
 
     return(
-        <div className="Page Project">
+        <div className="Project">
 
             <ProjectBox
                 id="ExpenseTracker"
@@ -91,10 +91,6 @@ export default function Project() {
                     <li>Developed a responsive NavBar to with <b>Custom Hooks</b> and <b>JavaScript</b> to respond to varying window sizes</li>
                     <li>Configured smooth navigation with <b>React States</b> and <b>Components</b></li>
                 </ul>
-
-                <div className="ThisOne" onClick={handleTrollClick} style={{cursor: troll===false? "pointer":"auto"}}>
-                    {troll===false? <h1>Click to Reveal</h1>:<h1>You are looking at it :&#41;</h1>}
-                </div>
             </ProjectBox>
 
             <ProjectBox

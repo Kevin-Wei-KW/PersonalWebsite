@@ -6,7 +6,7 @@ import rhsLogo from "../images/rhs_logo.png";
 export default function Education() {
 
     return(
-        <div className="Page Education">
+        <div className="Education">
             <div className="EducationContainer">
                 <h1>
                     <a href="https://uwaterloo.ca/future-students/programs/computer-engineering">
@@ -21,16 +21,16 @@ export default function Education() {
                 <div className="EducationInfo">
 
                     <ul>
-                        <li>Named to <b>Dean's Honour List</b> (4.0 GPA)</li>
+                        <li>Named to <b>Dean's Honour List (4.0 GPA)</b></li>
                         <li>ECE 250: Algorithms and Data Structure</li>
                         <li className="sub">
-                            Practiced data structures such as <b>Linked Lists, Queues, Stacks, and Trees</b>.
+                            Practiced data structures such as Linked Lists, Queues, Stacks, and Trees.
                         </li>
                         <li className="sub">
-                            Learned algorithms involving <b>Searching, Sorting, and DP</b>.
+                            Learned algorithms involving Searching, Sorting, and DP.
                         </li>
                         <li className="sub">
-                            Gained a deeper grasp on <b>Object-Oriented Programming</b>.
+                            Gained a deeper grasp on Object-Oriented Programming in <b>C++</b>.
                         </li>
                         <li>ECE 204: Numerical Methods</li>
                         <li className="sub">

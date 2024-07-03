@@ -23,7 +23,7 @@ export default function ProjectBox(props) {
 
     <div className="ProjectInfo">
 
-        {props.children}
+        <div className="bullets">{props.children}</div>
 
         {props.import !== '' &&
             <img src={props.import} alt={`${props.alt}`}/>

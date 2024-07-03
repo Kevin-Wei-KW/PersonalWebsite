@@ -1,19 +1,24 @@
 import React from "react";
+import  MediaQuery from 'react-responsive'
 
 import SkillItem from "./containers/SkillItem.js";
 
 export default function Skills() {
 
     return(
-        <div className="Page Skills">
+        <div className="Skills">
 
-            <div style={{backgroundColor:"rgb(25, 25, 25)",
-                         boxShadow:"0px 0px 5px 10px rgb(25,25,25)",
-                         borderRadius:"10px",
-                         padding:"10px"}}>
-                
-                Hover skill bars for more info!             
-            </div>
+            <MediaQuery query="(min-width: 768px)">
+                <div style={{backgroundColor:"rgb(25, 25, 25)",
+                            boxShadow:"0px 0px 5px 10px rgb(25,25,25)",
+                            borderRadius:"10px",
+                            padding:"10px",
+                            width:"50%",
+                            margin:"auto"}}>
+                    
+                    Hover skill bars for more info!             
+                </div>
+            </MediaQuery>
             
             <h1>Human Languages</h1>
             <div className="SkillSection">
@@ -71,18 +76,18 @@ export default function Skills() {
                     Taken C++ courses at Waterloo, learning pointers and OOP among other concepts.
                 </SkillItem>
                 <SkillItem 
-                    name = "JavaScript"
+                    name = "JS/TS"
                     level = {90}>
                     Experience: <u>3+ years</u> <br/>
                     Had work experience developing a web application.
                     Also worked on various other personal projects, from dart game animation to full-stack.
                 </SkillItem>
-                <SkillItem 
+                {/* <SkillItem 
                     name = "Typescript"
                     level = {85}>
                     Experience: <u>1+ years</u> <br/>
                     Extensively used it in work environment, developing rigorous back-end functions (CRUD).
-                </SkillItem>
+                </SkillItem> */}
             </div>
 
             <div className="SkillSection">
@@ -157,12 +162,6 @@ export default function Skills() {
                     Developed Expense Tracker project with Google Authentication and Google API with GCP.
                 </SkillItem>
                 <SkillItem
-                    name = "JupyterLab"
-                    level = {60}>
-                    Experience: <u>1 year </u> <br/>
-                    Used JupyterLab to facilitate LLM development in past work experience.
-                </SkillItem>
-                <SkillItem
                     name = "Docker"
                     level = {75}>
                     Experience: <u>1+ years </u> <br/>
@@ -203,6 +202,15 @@ export default function Skills() {
                     Experience: <u>1 year</u> <br/>
                     Had work experience developing an intuitive and convenient navigation system for a financial modelling application.
                 </SkillItem>
+            </div>
+        
+            <div className="SkillSection">
+                <SkillItem
+                    name = "JupyterLab"
+                    level = {60}>
+                    Experience: <u>1 year </u> <br/>
+                    Used JupyterLab to facilitate LLM development in past work experience.
+                </SkillItem>
                 <SkillItem
                     name = "Spring"
                     level = {70}>
@@ -211,7 +219,6 @@ export default function Skills() {
                     a database and a user login system.
                 </SkillItem>
             </div>
-
 
 
             {/* <div className="SkillSection">

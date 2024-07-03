@@ -1,10 +1,9 @@
-import React from "react";
+import React, {useEffect} from "react";
 import ExperienceBox from './containers/ExperienceBox';
 
 export default function Experience() {
-
     return(
-        <div className="Page Experience">
+        <div className="Experience">
             <ExperienceBox
                 link="https://gochartd.com"
                 company="Chartd"

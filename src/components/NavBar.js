@@ -119,10 +119,15 @@ export default function NavBar(props) {
         }
     }
 
+    function setPageHelper(page) {
+        document.body.scrollTo(0, 0); 
+        props.setPage(page)
+    }
+
     return(
         <div className="NavBar" onMouseLeave={handleNavHoverLeave} style={{color:getTextColor(props.mode)}}>
             <div className="NavLeft" id="normNavBtn">
-                <img src={pfp} alt="pfp"/>
+                <img className="pfp" src={pfp} alt="pfp"/>
 
                 <h3><a onClick={()=>props.setPage("Profile")}>Kevin Wei</a></h3>
                 <a href="mailto: kevin.wei1@uwaterloo.ca"><i className="fa fa-envelope" aria-hidden="true"></i> kevin.wei1@uwaterloo.ca</a>
@@ -138,12 +143,12 @@ export default function NavBar(props) {
             
             <div className={navState} id={dropdownState}>
                 <li>
-                    <a className={`${getNavButtonClass("Resume")}`} onClick={()=>props.setPage("Resume")}>
+                    <a className={`${getNavButtonClass("Resume")}`} onClick={()=>setPageHelper("Resume")}>
                         Resume
                     </a>
                 </li>
                 <li>
-                    <a className={`${getNavButtonClass("Experience")}`} onClick={()=>props.setPage("Experience")}>
+                    <a className={`${getNavButtonClass("Experience")}`} onClick={()=>setPageHelper("Experience")}>
                         Experience
                     </a>
                 </li>
@@ -151,7 +156,7 @@ export default function NavBar(props) {
                 <li>
                     <a
                         className={`nav-project ${getNavButtonClass("Projects")}`}
-                        onClick={()=>props.setPage("Projects")}
+                        onClick={()=>setPageHelper("Projects")}
                         onMouseOver={() => projectHover()}
                         onMouseLeave={() => projectHoverLeave()}>
                         Projects
@@ -160,12 +165,12 @@ export default function NavBar(props) {
                 </li>
 
                 <li>
-                    <a className={`${getNavButtonClass("Education")}`} onClick={()=>props.setPage("Education")}>
+                    <a className={`${getNavButtonClass("Education")}`} onClick={()=>setPageHelper("Education")}>
                         Education
                     </a>
                 </li>
                 <li>
-                    <a className={`${getNavButtonClass("Skills")}`} onClick={()=>props.setPage("Skills")}>
+                    <a className={`${getNavButtonClass("Skills")}`} onClick={()=>setPageHelper("Skills")}>
                         Skills
                     </a>
                 </li>
