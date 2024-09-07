@@ -10,14 +10,14 @@ export default function ExperienceBox(props) {
                     {/* <i style={{fontSize: '25px', marginLeft:'5px'}} className="fa">&#xf08e;</i> */}
                     &nbsp;&nbsp;|&nbsp;&nbsp;
                 </h1>
-                <h2>
+                <h1>
                     <a href={props.link}>
-                        {props.company}     
+                        {props.company}<i style={{fontSize: "24px", marginLeft: "8px"}} className="fa">&#xf08e;</i> 
                     </a>
-                </h2>
+                </h1>
             </div>
 
-            <h4 style={{margin: '0 0 0 5px'}}>
+            <h4 style={{margin: '10px 0 20px 3px'}}>
                 Skills: {props.skills} 
             </h4>
             <p style={{margin: '5px 0 0 5px', fontSize: '14px'}}>

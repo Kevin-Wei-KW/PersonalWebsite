@@ -6,12 +6,60 @@
 
 html, body {
     margin: 0;
-    background-color: black;
+    /* background-color: black; */
     height: 100%;
     color: white;
     font-family: GoogleFont;
     overflow-x: hidden;
 }
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* @keyframes moveLight {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    75% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  } */
+
+  @keyframes moveLight {
+    0% {
+      background-position: 10% 10%;
+    }
+    25% {
+      background-position: 90% 30%;
+    }
+    50% {
+      background-position: 50% 90%;
+    }
+    75% {
+      background-position: 40% 70%;
+    }
+    100% {
+      background-position: 10% 10%;
+    }
+  }
 
 b {
     font-weight: 800;
@@ -19,6 +67,13 @@ b {
 
 
 @media only screen and (max-width: 768px) {
+    .Page {
+        background: radial-gradient(circle at 50% 50%, #333333, #000000 25%);
+        background-size: 200% 200%;
+        background-attachment: fixed; 
+        animation: moveLight 10s ease infinite;
+    }
+
     /* NAVBAR */
 
     .NavBar {
@@ -37,7 +92,7 @@ b {
         /* min-width: 768px; */
         height: 50px;
 
-        background-color:black;
+        background-color:transparent;
         color: beige;
         opacity: 0.90;
 
@@ -849,6 +904,13 @@ b {
 
 
 @media only screen and (min-width: 768px) {
+    .Page {
+        background: radial-gradient(circle at 50% 50%, #333333, #000000 25%);
+        background-size: 200% 200%;
+        background-attachment: fixed; 
+        animation: moveLight 10s ease infinite;
+    }
+
     /* NAVBAR */
 
     .NavBar {
@@ -867,7 +929,7 @@ b {
         /* min-width: 768px; */
         height: 50px;
 
-        background-color:black;
+        background-color:transparent;
         color: beige;
         opacity: 0.90;
 
@@ -1137,6 +1199,14 @@ b {
         flex-direction: column;
         justify-content: space-between;
         padding: 20px 50px;
+
+        /* background: linear-gradient(270deg, #000000, #1a1a1a, #262626, #000000);
+        background-size: 200% 200%; 
+        animation: gradientShift 20s ease infinite;  */
+
+        /* background: radial-gradient(circle at 50%50%, #4a4a4a, #000000 30%);
+        background-size: 120% 120%; 
+        animation: moveLight 15s ease infinite;  */
     }
 
     /* PROFILE */

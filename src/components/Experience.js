@@ -11,9 +11,11 @@ export default function Experience() {
                 skills="PyTorch, NLP, AWS, Pandas, JupyterLab, Hugging Face"
                 period="May 2024 - August 2024 | 4 months">
                 <ul>
-                    <li> Developed and fine-tuned <b>Google Flan-T5, Meta Llama</b> and other <b>LLMs</b> with <b>PyTorch</b>, optimizing various <b>NLP</b> tasks for Business Intelligence by improving classification accuracy by <b>17%</b> and summarization <b>ROUGE</b> scores by <b>19%</b>. </li>
-                    <li> Leveraged <b>AWS SageMaker, S3</b> and <b>ECR</b> for model training and data control, achieving <b>40%</b> reduction in overall training time and enhancing deployment efficiency.</li>
-                    <li> Generated comprehensive training data with <b>Pandas</b>, referencing <b>Hugging Face</b> models and datasets to accelerate preprocessing time by up to <b>50%</b>.</li>
+                    <li>Developed and fine-tuned Google <b>Flan-T5</b>, Meta <b>Llama</b> and other LLMs with PyTorch to optimize NLP tasks for Business Intelligence, boosting classification accuracy by <b>17%</b> and summarization ROUGE scores by <b>19%</b>.</li>
+                    <li>Leveraged <b>AWS SageMaker, S3 and ECR</b> to streamline model training and data control, achieving a <b>40%</b> reduction in overall training and deployment time.</li>
+                    <li>Generated comprehensive training data by extracting custom data queries from natural language inputs, and integrating Hugging Face models and datasets to accelerate preprocessing time by up to <b>50%</b>.</li>
+                    <li>Deployed OpenAI models using <b>Azure</b> API Management, enhancing the platform’s reporting system with automatic data analysis and insight generation.</li>
+
                 </ul>
             </ExperienceBox>
 

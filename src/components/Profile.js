@@ -23,12 +23,12 @@ export default function Profile(props) {
 
             <div className="About">
                 <h3 className="quick-link" onClick={() => props.setPage("Projects")}>
-                    Check out my Projects &nbsp; <i class="fas fa-arrow-right"></i>
+                    Check out my Projects &nbsp; <i className="fas fa-arrow-right"></i>
                 </h3>
                 <h3 className="quick-link" onClick={() => props.setPage("Experience")}>
-                    Work Experiences &nbsp;  <i class="fas fa-arrow-right"></i>
+                    Work Experiences &nbsp;  <i className="fas fa-arrow-right"></i>
                 </h3>
-                <h3 className="quick-link" onClick={() => props.setPage("Resume")}>My Resume &nbsp; <i class="fas fa-arrow-right"></i></h3>
+                <h3 className="quick-link" onClick={() => props.setPage("Resume")}>My Resume &nbsp; <i className="fas fa-arrow-right"></i></h3>
                 {/* <p style={{textIndent: '30px'}}>
                 
                     While I'm not glued to my laptop, I enjoy reading novels
