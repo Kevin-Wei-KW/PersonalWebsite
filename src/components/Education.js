@@ -22,6 +22,8 @@ export default function Education() {
 
                     <ul>
                         <li>Named to <b>Dean's Honour List (4.0 GPA)</b></li>
+                        <li>ECE 252: Systems Programming and Concurrency</li>
+                        <li>ECE 224: Embedded Microprocessor Systems</li>
                         <li>ECE 250: Algorithms and Data Structure</li>
                         <li className="sub">
                             Practiced data structures such as Linked Lists, Queues, Stacks, and Trees.
