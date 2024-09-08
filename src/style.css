@@ -1374,7 +1374,7 @@ b {
         transition: all 0.3s;
     }
     .ExperienceContainer:hover {
-        background-color: rgb(50, 50, 50);
+        background-color: rgb(40, 40, 40);
         box-shadow: 0px 0px 5px 20px rgb(25,25,25);
         border-radius: 10px;
 
@@ -1412,7 +1412,7 @@ b {
         transition: all 0.3s;
     }
     .ProjectContainer:hover {
-        background-color: rgb(50, 50, 50);
+        background-color: rgb(40, 40, 40);
         box-shadow: 0px 0px 5px 20px rgb(25,25,25);
         border-radius: 10px;
 
@@ -1517,7 +1517,7 @@ b {
         transition: all 0.3s;
     }
     .EducationContainer:hover {
-        background-color: rgb(50, 50, 50);
+        background-color: rgb(40, 40, 40);
         box-shadow: 0px 0px 5px 20px rgb(25,25,25);
         border-radius: 10px;
 

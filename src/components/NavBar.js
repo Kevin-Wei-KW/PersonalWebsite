@@ -129,7 +129,7 @@ export default function NavBar(props) {
             <div className="NavLeft" id="normNavBtn">
                 {/* <img className="pfp" src={pfp} alt="pfp"/> */}
 
-                <h3><a onClick={()=>props.setPage("Profile")}>Kevin Wei</a></h3>
+                <h3><a onClick={()=>setPageHelper("Profile")}>Kevin Wei</a></h3>
                 <a href="mailto: kevin.wei1@uwaterloo.ca"><i className="fa fa-envelope" aria-hidden="true"></i> kevin.wei1@uwaterloo.ca</a>
 
             </div>
