@@ -61,7 +61,7 @@ b {
     background: radial-gradient(circle at 50% 50%, #333333, #000000 25%);
     background-size: 200% 200%;
     background-attachment: fixed;
-    animation: moveLight 15s ease infinite;
+    animation: moveLight 20s ease infinite;
   }
 
   /* NAVBAR */
@@ -881,7 +881,7 @@ b {
     background: radial-gradient(circle at 50% 50%, #333333, #000000 25%);
     background-size: 200% 200%;
     background-attachment: fixed;
-    animation: moveLight 15s ease infinite;
+    animation: moveLight 20s ease infinite;
   }
 
   /* NAVBAR */
