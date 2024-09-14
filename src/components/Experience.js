@@ -11,11 +11,10 @@ export default function Experience() {
                 skills="PyTorch, NLP, AWS, Pandas, JupyterLab, Hugging Face"
                 period="May 2024 - August 2024 | 4 months">
                 <ul>
-                    <li>Developed and fine-tuned Google <b>Flan-T5</b>, Meta <b>Llama</b> and other LLMs with PyTorch to optimize NLP tasks for Business Intelligence, boosting classification accuracy by <b>17%</b> and summarization ROUGE scores by <b>19%</b>.</li>
-                    <li>Leveraged <b>AWS SageMaker, S3 and ECR</b> to streamline model training and data control, achieving a <b>40%</b> reduction in overall training and deployment time.</li>
-                    <li>Generated comprehensive training data by extracting custom data queries from natural language inputs, and integrating Hugging Face models and datasets to accelerate preprocessing time by up to <b>50%</b>.</li>
-                    <li>Deployed OpenAI models using <b>Azure</b> API Management, enhancing the platform’s reporting system with automatic data analysis and insight generation.</li>
-
+                    <li>Architected and deployed a <b>low-latency API pipeline</b> for real-time text processing, integrating sentiment analysis and RAG, achieving <b>sub-2 second</b> response times.</li>
+                    <li>Developed a scalable infrastructure built on <b>AWS</b> for end-to-end model training and deployment, leveraging <b>SageMaker, S3, and ECR</b> to streamline data processing pipelines and reduce deployment time by <b>40%</b>.</li>
+                    <li>Delivered a custom data generation platform capable of producing datasets of up to <b>10 million</b> entries with dynamically adjustable input parameters, accelerating data preparation by up to <b>60%</b>.</li>
+                    <li>Enhanced product reporting systems with automatic data analysis and insights, dramatically reducing report generation time with NLP models deployed through <b>Azure</b> API Management.</li>
                 </ul>
             </ExperienceBox>
 
