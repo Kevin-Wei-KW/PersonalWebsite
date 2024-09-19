@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalWebsite/static/css/main.61e6690f.css",
-    "main.js": "/PersonalWebsite/static/js/main.e432e8be.js",
+    "main.js": "/PersonalWebsite/static/js/main.a99ac0a9.js",
     "static/media/math_connect.gif": "/PersonalWebsite/static/media/math_connect.23286ca732bb013f0845.gif",
     "static/media/ecommerce_web_scraper.gif": "/PersonalWebsite/static/media/ecommerce_web_scraper.3c5e8a6e0d2d332c8f60.gif",
     "static/media/profile_pic.jpg": "/PersonalWebsite/static/media/profile_pic.cd4698804c9cea39792f.jpg",
@@ -14,10 +14,10 @@
     "static/media/Kevin_Wei_SWE_Resume.pdf": "/PersonalWebsite/static/media/Kevin_Wei_SWE_Resume.da6b689b6a9e671ec233.pdf",
     "index.html": "/PersonalWebsite/index.html",
     "main.61e6690f.css.map": "/PersonalWebsite/static/css/main.61e6690f.css.map",
-    "main.e432e8be.js.map": "/PersonalWebsite/static/js/main.e432e8be.js.map"
+    "main.a99ac0a9.js.map": "/PersonalWebsite/static/js/main.a99ac0a9.js.map"
   },
   "entrypoints": [
     "static/css/main.61e6690f.css",
-    "static/js/main.e432e8be.js"
+    "static/js/main.a99ac0a9.js"
   ]
 }
