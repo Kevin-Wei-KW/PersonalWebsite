@@ -58,7 +58,7 @@ export default function Skills() {
                 <SkillItem 
                     name = "Java"
                     level = {90}>
-                    Experience: <u>4+ years</u> <br/>
+                    Experience: <u>3+ years</u> <br/>
                     Have used it for full-stack development. Competed in various programming
                     competitions testing algorithms and logic (CCC, USACO).
                 </SkillItem>
@@ -69,7 +69,7 @@ export default function Skills() {
                     Had work experience using it for full stack development. Also used it to develop various personal projects.
                 </SkillItem>
                 <SkillItem 
-                    name = "C++"
+                    name = "C/C++"
                     level = {75}>
                     Experience: <u>1+ years</u> <br/>
                     Wrote many programs, including a mine sweeper game and transactions tracker.
@@ -293,6 +293,12 @@ export default function Skills() {
                     level = {65}>
                     Experience: <u>2+ years</u> <br/>
                     My favourite leisure sport to play with family and friends. Played on and off since elementary.
+                </SkillItem>
+                <SkillItem
+                    name = "Volleyball"
+                    level = {55}>
+                    Experience: <u>1 year</u> <br/>
+                    A fun team sport I enjoy playing with friends at university intramurals.
                 </SkillItem>
                 <SkillItem
                     name = "Cooking"

@@ -83,7 +83,7 @@ export default function Project() {
                 id="PersonalWebsite"
                 link="https://github.com/kevin-wei-kw/PersonalWebsite"
                 title="Kevin's Personal Website"
-                techs="ReactJS, HTML/CSS, JavaScript, NodeJS"
+                techs="ReactJS, HTML/CSS, JavaScript"
                 import=""
                 alt="">
                 <ul>
