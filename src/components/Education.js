@@ -16,7 +16,7 @@ export default function Education() {
                 </h1>
 
                 <h4>Bachelor's Degree in Computer Engineering</h4>
-                <h5>September 2022 - May 2027</h5>
+                <h5>September 2022</h5>
 
                 <div className="EducationInfo">
 

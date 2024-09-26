@@ -7,8 +7,8 @@ export default function Experience() {
             <ExperienceBox
                 link="https://gochartd.com"
                 company="Chartd"
-                position="ML Engineer"
-                skills="PyTorch, NLP, AWS, Pandas, JupyterLab, Hugging Face"
+                position="Software Developer, ML"
+                skills="Python, FastAPI, PyTorch, Pandas, AWS, Azure, NLP, JupyterLab, Hugging Face"
                 period="May 2024 - August 2024 | 4 months">
                 <ul>
                     <li>Architected and deployed a <b>low-latency API pipeline</b> for real-time text processing, integrating sentiment analysis and RAG, achieving <b>sub-2 second</b> response times.</li>
