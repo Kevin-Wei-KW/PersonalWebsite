@@ -1,6 +1,6 @@
 import React, {StrictMode} from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Page from "./Page.js";
 

@@ -192,7 +192,7 @@ export default function NavBar(props) {
                 style={{display: projHover || projDropHover? 'flex':'none'}}
                 onMouseOver={() => setProjDropHover(true)}
                 onMouseLeave={() => setProjDropHover(false)}>
-                <a className="projects-option" onClick={()=>handleNavigation("ExpenseTracker")}>Expense Tracker</a>
+                <a className="projects-option" onClick={()=>handleNavigation("ExpenseTracker")}>ExpenseLink</a>
                 <a className="projects-option" onClick={()=>handleNavigation("SimpleShop")}>Simple Shop</a>
                 <a className="projects-option" onClick={()=>handleNavigation("MathConnect")}>Math Connect</a>
                 <a className="projects-option" onClick={()=>handleNavigation("WebScraper")}>Web Scraper</a>
