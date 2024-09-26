@@ -313,7 +313,7 @@ b {
   .projects-dropdown {
     position: absolute;
     top: 50px !important;
-    right: 23% !important;
+    right: 20% !important;
 
     display: flex;
     flex-direction: column;
@@ -427,10 +427,15 @@ b {
   }
 
   .Profile .About {
-    width: 80%;
+    max-width: 50%;
     padding: 30px;
-    margin-top: 5%;
-    text-align: center;
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
   }
 
   .About p,
@@ -452,6 +457,10 @@ b {
   }
   .quick-link {
     cursor: pointer;
+    width: 80%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
   }
 
   /* .shadow
@@ -1253,6 +1262,12 @@ b {
     max-width: 50%;
     padding: 30px;
     margin-top: 10vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
   }
 
   .About p,
@@ -1274,6 +1289,10 @@ b {
   }
   .quick-link {
     cursor: pointer;
+    width: 80%;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
   }
 
   /* .shadow

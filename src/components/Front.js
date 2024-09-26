@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Profile from "./Profile.js";
 import Resume from "./Resume.js";

@@ -8,8 +8,7 @@ import Footer from "./components/Footer.js";
 
 import "./style.css";
 
-export default function Page() {
-    let [pageSelector, setPageSelector] = useState();
+export default function Page(props) {
     let [mode, setMode] = useState("dark");
 
     function getMainContentMode(mode) {
@@ -37,14 +36,12 @@ export default function Page() {
     return (
         <div className={getMainContentMode(mode)} style={{backgroundColor: getBackgroundColor(mode), color: getTextColor(mode) }}>
             <NavBar
-                page = {pageSelector}
-                setPage = {setPageSelector}
+                page = {props.page}
                 mode = {mode}
                 setMode = {setMode}
             />
             <Front
-                page = {pageSelector}
-                setPage = {setPageSelector}
+                page = {props.page}
                 mode = {mode}
             />
 

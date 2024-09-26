@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useLayoutEffect} from "react";
+import { Link, useNavigate } from 'react-router-dom';
 // import {Routes, Route, useNavigate} from 'react-router-dom';
 import $ from 'jquery';
 
@@ -9,11 +10,8 @@ import Resume from "./Resume.js";
 import useWindowSize from "./Hooks.js";
 
 export default function NavBar(props) {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
-    // const navigateToResume = () => {
-    //     navigate('/resume');
-    // };
 
     function checkActive(name) {
         if(props.page === name) {
@@ -121,7 +119,17 @@ export default function NavBar(props) {
 
     function setPageHelper(page) {
         document.body.scrollTo(0, 0); 
-        props.setPage(page)
+        // props.setPage(page)
+    }
+
+    function handleNavigation(project) {
+        navigate("/projects");
+        setTimeout(() => {
+            const element = document.getElementById(project);
+            if(element) {
+                element.scrollIntoView({behavior: "smooth"});
+            }
+        })
     }
 
     return(
@@ -129,7 +137,7 @@ export default function NavBar(props) {
             <div className="NavLeft" id="normNavBtn">
                 {/* <img className="pfp" src={pfp} alt="pfp"/> */}
 
-                <h3><a onClick={()=>setPageHelper("Profile")}>Kevin Wei</a></h3>
+                <h3><Link to="/" onClick={()=>setPageHelper("Profile")}>Kevin Wei</Link></h3>
                 <a href="mailto: kevin.wei1@uwaterloo.ca"><i className="fa fa-envelope" aria-hidden="true"></i> kevin.wei1@uwaterloo.ca</a>
 
             </div>
@@ -143,36 +151,38 @@ export default function NavBar(props) {
             
             <div className={navState} id={dropdownState}>
                 <li>
-                    <a className={`${getNavButtonClass("Resume")}`} onClick={()=>setPageHelper("Resume")}>
+                    <Link to="/resume" className={`${getNavButtonClass("Resume")}`} onClick={()=>setPageHelper("Resume")}>
+                        {/* <Link to="/resume">Resume</Link> */}
                         Resume
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className={`${getNavButtonClass("Experience")}`} onClick={()=>setPageHelper("Experience")}>
+                    <Link to="/experience" className={`${getNavButtonClass("Experience")}`} onClick={()=>setPageHelper("Experience")}>
                         Experience
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a
+                    <Link
+                        to="/projects"
                         className={`nav-project ${getNavButtonClass("Projects")}`}
                         onClick={()=>setPageHelper("Projects")}
                         onMouseOver={() => projectHover()}
                         onMouseLeave={() => projectHoverLeave()}>
                         Projects
                         <i className="fa fa-caret-down" style={{'marginLeft':'7px'}}></i>
-                    </a>
+                    </Link>
                 </li>
 
                 <li>
-                    <a className={`${getNavButtonClass("Education")}`} onClick={()=>setPageHelper("Education")}>
+                    <Link to="/education"className={`${getNavButtonClass("Education")}`} onClick={()=>setPageHelper("Education")}>
                         Education
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className={`${getNavButtonClass("Skills")}`} onClick={()=>setPageHelper("Skills")}>
+                    <Link to="/skills" className={`${getNavButtonClass("Skills")}`} onClick={()=>setPageHelper("Skills")}>
                         Skills
-                    </a>
+                    </Link>
                 </li>
 
             </div>
@@ -182,12 +192,12 @@ export default function NavBar(props) {
                 style={{display: projHover || projDropHover? 'flex':'none'}}
                 onMouseOver={() => setProjDropHover(true)}
                 onMouseLeave={() => setProjDropHover(false)}>
-                <a className="projects-option" onClick={()=>props.setPage("Projects")} href="#ExpenseTracker">Expense Tracker</a>
-                <a className="projects-option" onClick={()=>props.setPage("Projects")} href="#SimpleShop">Simple Shop</a>
-                <a className="projects-option" onClick={()=>props.setPage("Projects")} href="#MathConnect">Math Connect</a>
-                <a className="projects-option" onClick={()=>props.setPage("Projects")} href="#WebScraper">Web Scraper</a>
-                <a className="projects-option" onClick={()=>props.setPage("Projects")} href="#PersonalWebsite">Personal Website</a>
-                <a className="projects-option" onClick={()=>props.setPage("Projects")} href="#Dart">Dart Board</a>
+                <a className="projects-option" onClick={()=>handleNavigation("ExpenseTracker")}>Expense Tracker</a>
+                <a className="projects-option" onClick={()=>handleNavigation("SimpleShop")}>Simple Shop</a>
+                <a className="projects-option" onClick={()=>handleNavigation("MathConnect")}>Math Connect</a>
+                <a className="projects-option" onClick={()=>handleNavigation("WebScraper")}>Web Scraper</a>
+                <a className="projects-option" onClick={()=>handleNavigation("PersonalWebsite")}>Personal Website</a>
+                <a className="projects-option" onClick={()=>handleNavigation("Dart")}>Dart Board</a>
             </div>
 
             {navState ==="nav nav-dropdown"? 

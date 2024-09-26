@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Profile(props) {
     return(
@@ -22,13 +23,15 @@ export default function Profile(props) {
             </div>
 
             <div className="About">
-                <h3 className="quick-link" onClick={() => props.setPage("Projects")}>
+                <Link to="/projects" className="quick-link">
                     Check out my Projects &nbsp; <i className="fas fa-arrow-right"></i>
-                </h3>
-                <h3 className="quick-link" onClick={() => props.setPage("Experience")}>
+                </Link>
+                <Link to="/experience" className="quick-link">
                     Work Experiences &nbsp;  <i className="fas fa-arrow-right"></i>
-                </h3>
-                <h3 className="quick-link" onClick={() => props.setPage("Resume")}>My Resume &nbsp; <i className="fas fa-arrow-right"></i></h3>
+                </Link>
+                <Link to="/resume" className="quick-link">
+                    My Resume &nbsp; <i className="fas fa-arrow-right"></i>
+                </Link>
                 {/* <p style={{textIndent: '30px'}}>
                 
                     While I'm not glued to my laptop, I enjoy reading novels
