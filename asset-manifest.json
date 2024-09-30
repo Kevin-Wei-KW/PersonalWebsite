@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.4ab2bb10.css",
-    "main.js": "/PersonalWebsite/static/js/main.6e20ef41.js",
+    "main.css": "/PersonalWebsite/static/css/main.220a606f.css",
+    "main.js": "/PersonalWebsite/static/js/main.49d9d1f3.js",
     "static/media/math_connect.gif": "/PersonalWebsite/static/media/math_connect.23286ca732bb013f0845.gif",
     "static/media/ecommerce_web_scraper.gif": "/PersonalWebsite/static/media/ecommerce_web_scraper.3c5e8a6e0d2d332c8f60.gif",
     "static/media/profile_pic.jpg": "/PersonalWebsite/static/media/profile_pic.cd4698804c9cea39792f.jpg",
@@ -13,11 +13,11 @@
     "static/media/rhs_logo.png": "/PersonalWebsite/static/media/rhs_logo.0a83fa45f0c6beb274ae.png",
     "static/media/Kevin_Wei_SWE_Resume.pdf": "/PersonalWebsite/static/media/Kevin_Wei_SWE_Resume.da6b689b6a9e671ec233.pdf",
     "index.html": "/PersonalWebsite/index.html",
-    "main.4ab2bb10.css.map": "/PersonalWebsite/static/css/main.4ab2bb10.css.map",
-    "main.6e20ef41.js.map": "/PersonalWebsite/static/js/main.6e20ef41.js.map"
+    "main.220a606f.css.map": "/PersonalWebsite/static/css/main.220a606f.css.map",
+    "main.49d9d1f3.js.map": "/PersonalWebsite/static/js/main.49d9d1f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ab2bb10.css",
-    "static/js/main.6e20ef41.js"
+    "static/css/main.220a606f.css",
+    "static/js/main.49d9d1f3.js"
   ]
 }
