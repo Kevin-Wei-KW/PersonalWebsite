@@ -9,7 +9,8 @@ body {
   margin: 0;
   /* background-color: black; */
   height: 100%;
-  color: white;
+  color: beige;
+  background-color: black;
   font-family: GoogleFont;
   overflow-x: hidden;
 }
@@ -102,7 +103,7 @@ b {
   }
 
   .LightMainContent .NavBar {
-    background-color: white;
+    background-color: beige;
   }
 
   .DarkMainContent .NavBar:hover {
@@ -300,7 +301,7 @@ b {
 
   /* .NavDropdown:hover{
         display: inline-block;
-        background-color: white;
+        background-color: beige;
     } */
 
   /* .nav-project {
@@ -548,7 +549,7 @@ b {
   }
   .ExperienceHeader a:link,
   a:visited {
-    color: white;
+    color: beige;
   }
 
   .ExperienceInfo li {
@@ -562,7 +563,7 @@ b {
   }
 
   .Project i {
-    color: white;
+    color: beige;
   }
 
   .ProjectContainer {
@@ -591,7 +592,7 @@ b {
 
   .ProjectContainer h1 a:link,
   a:visited {
-    color: white;
+    color: beige;
   }
   .LightMainContent .ProjectContainer h1 a:link,
   a:visited {
@@ -655,7 +656,7 @@ b {
     background-color: rgb(75, 75, 75);
     border-radius: 20px;
     text-align: center;
-    color: white;
+    color: beige;
 
     box-shadow: 0 0 25px 25px rgb(25, 25, 25);
   }
@@ -693,13 +694,13 @@ b {
   }
 
   .EducationContainer h1 a:link {
-    color: white;
+    color: beige;
   }
   .LightMainContent .EducationContainer h1 a:link {
     color: black;
   }
   .EducationContainer h1 a:visited {
-    color: white;
+    color: beige;
   }
   .LightMainContent .EducationContainer h1 a:visited {
     color: black;
@@ -872,7 +873,7 @@ b {
 
     display: inline-block;
     border-bottom: 1px dotted black;
-    background-color: white;
+    background-color: beige;
     width: 160px;
     z-index: 5;
 
@@ -931,7 +932,7 @@ b {
   }
 
   .LightMainContent .NavBar {
-    background-color: white;
+    background-color: beige;
   }
 
   .DarkMainContent .NavBar:hover {
@@ -1126,7 +1127,7 @@ b {
 
   /* .NavDropdown:hover{
         display: inline-block;
-        background-color: white;
+        background-color: beige;
     } */
 
   /* .nav-project {
@@ -1377,7 +1378,7 @@ b {
   }
   .ExperienceHeader a:link,
   a:visited {
-    color: white;
+    color: beige;
   }
 
   .ExperienceInfo li {
@@ -1387,7 +1388,7 @@ b {
   /* Project */
 
   .Project i {
-    color: white;
+    color: beige;
   }
 
   .ProjectContainer {
@@ -1415,7 +1416,7 @@ b {
 
   .ProjectContainer h1 a:link,
   a:visited {
-    color: white;
+    color: beige;
   }
   .LightMainContent .ProjectContainer h1 a:link,
   a:visited {
@@ -1483,7 +1484,7 @@ b {
     background-color: rgb(75, 75, 75);
     border-radius: 20px;
     text-align: center;
-    color: white;
+    color: beige;
 
     box-shadow: 0 0 25px 25px rgb(25, 25, 25);
   }
@@ -1516,13 +1517,13 @@ b {
   }
 
   .EducationContainer h1 a:link {
-    color: white;
+    color: beige;
   }
   .LightMainContent .EducationContainer h1 a:link {
     color: black;
   }
   .EducationContainer h1 a:visited {
-    color: white;
+    color: beige;
   }
   .LightMainContent .EducationContainer h1 a:visited {
     color: black;
@@ -1700,7 +1701,7 @@ b {
 
     display: inline-block;
     border-bottom: 1px dotted black;
-    background-color: white;
+    background-color: beige;
     width: 160px;
     z-index: 5;
 

@@ -23,13 +23,13 @@ export default function Profile(props) {
             </div>
 
             <div className="About">
-                <Link to="/projects" className="quick-link">
+                <Link to="/projects" className="quick-link" onClick={()=>document.body.scrollTo(0, 0)}>
                     Check out my Projects &nbsp; <i className="fas fa-arrow-right"></i>
                 </Link>
-                <Link to="/experience" className="quick-link">
+                <Link to="/experience" className="quick-link" onClick={()=>document.body.scrollTo(0, 0)}>
                     Work Experiences &nbsp;  <i className="fas fa-arrow-right"></i>
                 </Link>
-                <Link to="/resume" className="quick-link">
+                <Link to="/resume" className="quick-link" onClick={()=>document.body.scrollTo(0, 0)}>
                     My Resume &nbsp; <i className="fas fa-arrow-right"></i>
                 </Link>
                 {/* <p style={{textIndent: '30px'}}>
