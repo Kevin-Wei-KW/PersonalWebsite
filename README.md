@@ -1,3 +1,3 @@
 # Personal Website
 
-Visit: https://kevin-wei-kw.github.io/PersonalWebsite/
+Visit: [https://www.kevinwei.dev/](https://www.kevinwei.dev/)
