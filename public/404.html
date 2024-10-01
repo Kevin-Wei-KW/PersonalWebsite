@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <title>Page Not Found</title>
     <script type="text/javascript">
-      // Redirect to index.html while preserving the path
-      var redirectTo = window.location.pathname + window.location.search;
-      window.location.replace('?redirect=' + redirectTo);
+      // Check if the redirect query parameter is already present
+      if (!window.location.search.includes('redirect=')) {
+        // Redirect to index.html while preserving the path
+        var redirectTo = window.location.pathname + window.location.search;
+        window.location.replace('/index.html?redirect=' + redirectTo);
+      }
     </script>
   </head>
   <body></body>
