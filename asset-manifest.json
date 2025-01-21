@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.220a606f.css",
-    "main.js": "/PersonalWebsite/static/js/main.49d9d1f3.js",
-    "static/media/math_connect.gif": "/PersonalWebsite/static/media/math_connect.23286ca732bb013f0845.gif",
-    "static/media/ecommerce_web_scraper.gif": "/PersonalWebsite/static/media/ecommerce_web_scraper.3c5e8a6e0d2d332c8f60.gif",
-    "static/media/profile_pic.jpg": "/PersonalWebsite/static/media/profile_pic.cd4698804c9cea39792f.jpg",
-    "static/media/simple_shop.gif": "/PersonalWebsite/static/media/simple_shop.e8210cf343e84abab2a4.gif",
-    "static/media/expense_tracker.gif": "/PersonalWebsite/static/media/expense_tracker.08dbad3256ce3b7c98ce.gif",
-    "static/media/Inter-VariableFont_slnt,wght.ttf": "/PersonalWebsite/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
-    "static/media/dart_demo.gif": "/PersonalWebsite/static/media/dart_demo.8de4f2c2f5b9cd80c669.gif",
-    "static/media/uofw_logo.png": "/PersonalWebsite/static/media/uofw_logo.4f899ab4e8198a3ba480.png",
-    "static/media/rhs_logo.png": "/PersonalWebsite/static/media/rhs_logo.0a83fa45f0c6beb274ae.png",
-    "static/media/Kevin_Wei_SWE_Resume.pdf": "/PersonalWebsite/static/media/Kevin_Wei_SWE_Resume.da6b689b6a9e671ec233.pdf",
-    "index.html": "/PersonalWebsite/index.html",
-    "main.220a606f.css.map": "/PersonalWebsite/static/css/main.220a606f.css.map",
-    "main.49d9d1f3.js.map": "/PersonalWebsite/static/js/main.49d9d1f3.js.map"
+    "main.css": "/static/css/main.3f89b0dc.css",
+    "main.js": "/static/js/main.4b381087.js",
+    "static/media/math_connect.gif": "/static/media/math_connect.23286ca732bb013f0845.gif",
+    "static/media/ecommerce_web_scraper.gif": "/static/media/ecommerce_web_scraper.3c5e8a6e0d2d332c8f60.gif",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.cd4698804c9cea39792f.jpg",
+    "static/media/simple_shop.gif": "/static/media/simple_shop.e8210cf343e84abab2a4.gif",
+    "static/media/expense_tracker.gif": "/static/media/expense_tracker.08dbad3256ce3b7c98ce.gif",
+    "static/media/Inter-VariableFont_slnt,wght.ttf": "/static/media/Inter-VariableFont_slnt,wght.aadb65ac45347ff46699.ttf",
+    "static/media/dart_demo.gif": "/static/media/dart_demo.8de4f2c2f5b9cd80c669.gif",
+    "static/media/uofw_logo.png": "/static/media/uofw_logo.4f899ab4e8198a3ba480.png",
+    "static/media/rhs_logo.png": "/static/media/rhs_logo.0a83fa45f0c6beb274ae.png",
+    "static/media/Kevin_Wei_SWE_Resume.pdf": "/static/media/Kevin_Wei_SWE_Resume.c1c91512a64d225649aa.pdf",
+    "index.html": "/index.html",
+    "main.3f89b0dc.css.map": "/static/css/main.3f89b0dc.css.map",
+    "main.4b381087.js.map": "/static/js/main.4b381087.js.map"
   },
   "entrypoints": [
-    "static/css/main.220a606f.css",
-    "static/js/main.49d9d1f3.js"
+    "static/css/main.3f89b0dc.css",
+    "static/js/main.4b381087.js"
   ]
 }
