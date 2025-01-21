@@ -5,11 +5,21 @@ export default function Experience() {
     return(
         <div className="Experience">
             <ExperienceBox
+                link="https://www.intactfc.com/about-us/intact-lab"
+                company="Intact Financial"
+                position="AI Backend Developer"
+                skills="Python, Flask, AWS, Kubernetes, Kafka, Tensorflow, Terraform, Docker"
+                period="Jan 2025 - April 2025">
+                <ul>
+                </ul>
+            </ExperienceBox>
+            
+            <ExperienceBox
                 link="https://gochartd.com"
                 company="Chartd"
                 position="Software Developer, ML"
                 skills="Python, FastAPI, PyTorch, Pandas, AWS, Azure, NLP, JupyterLab, Hugging Face"
-                period="May 2024 - August 2024 | 4 months">
+                period="May 2024 - August 2024">
                 <ul>
                     <li>Architected and deployed a <b>low-latency API pipeline</b> for real-time text processing, integrating sentiment analysis and RAG, achieving <b>sub-2 second</b> response times.</li>
                     <li>Developed a scalable infrastructure built on <b>AWS</b> for end-to-end model training and deployment, leveraging <b>SageMaker, S3, and ECR</b> to streamline data processing pipelines and reduce deployment time by <b>40%</b>.</li>
@@ -23,7 +33,7 @@ export default function Experience() {
                 company="Chartd"
                 position="Full Stack Developer"
                 skills="Python, MongoDB, Pandas, VueJS, Typescript, Docker, ETL"
-                period="September 2023 - December 2023 | 4 months">
+                period="September 2023 - December 2023">
                 <ul>
                     <li> Worked on a Business-Intelligence platform built atop Machine Learning language models, which evaluates financial data to provide statistics and insights on business performance.</li>
                     <li> Implemented a data <b>ETL</b> pipeline with <b>Python</b> through async <b>FastAPI</b> endpoints, processing <b>10,000+</b> data points from user uploaded files to <b>MongoDB</b> with <b>less than 3</b> seconds of latency.</li>
@@ -38,7 +48,7 @@ export default function Experience() {
                 company="Chartd"
                 position="Web Application Developer"
                 skills="VueJS, NuxtJS, TypeScript, JSON, HTML, SCSS, Cypress"
-                period="January 2023 - April 2023 | 4 months">
+                period="January 2023 - April 2023">
                 <ul>
                     <li>Developed a financial data management tool using <b>Vue.js</b> for Canadian Defence Industry contracts</li>
                     <li>Abstracted financial data from <b>JSON</b> to <b>TypeScript</b> objects for organized display in Tables, Graphs, and Charts.</li>
