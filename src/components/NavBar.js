@@ -157,6 +157,11 @@ export default function NavBar(props) {
                     </Link>
                 </li>
                 <li>
+                    <Link to="/education"className={`${getNavButtonClass("Education")}`} onClick={()=>setPageHelper("Education")}>
+                        Education
+                    </Link>
+                </li>
+                <li>
                     <Link to="/experience" className={`${getNavButtonClass("Experience")}`} onClick={()=>setPageHelper("Experience")}>
                         Experience
                     </Link>
@@ -173,17 +178,11 @@ export default function NavBar(props) {
                         <i className="fa fa-caret-down" style={{'marginLeft':'7px'}}></i>
                     </Link>
                 </li>
-
-                <li>
-                    <Link to="/education"className={`${getNavButtonClass("Education")}`} onClick={()=>setPageHelper("Education")}>
-                        Education
-                    </Link>
-                </li>
-                <li>
+                {/* <li>
                     <Link to="/skills" className={`${getNavButtonClass("Skills")}`} onClick={()=>setPageHelper("Skills")}>
                         Skills
                     </Link>
-                </li>
+                </li> */}
 
             </div>
 
