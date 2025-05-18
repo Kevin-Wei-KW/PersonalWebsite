@@ -8,9 +8,13 @@ export default function Experience() {
                 link="https://www.intactfc.com/about-us/intact-lab"
                 company="Intact Financial"
                 position="AI Backend Developer"
-                skills="Python, Flask, AWS, Kubernetes, Kafka, Tensorflow, Terraform, Docker"
+                skills="Python, Flask, AWS, Kubernetes, Kafka, Tensorflow, Docker"
                 period="Jan 2025 - April 2025">
                 <ul>
+                    <li>Architected a <b>Kafka-based microservice</b> orchestrating multi-layered extraction and <b>classification models</b> for routing claim documents, eliminating manual screening time by <b>20+ minutes</b> per document.</li>
+                    <li>Designed a robust document extraction system with <b>AWS</b> services including <b>Textract, SQS/SNS, DynamoDB, and S3</b>, processing over <b>5,000+</b> insurance claim documents daily with ensured data persistence.</li>
+                    <li>Developed an <b>AI system</b> that sources from business requirements, design documents, and meeting transcripts to create Jira tickets, reducing turnaround time by <b>70%</b>.</li>
+                    <li>Integrated NLP techniques such as <b>N-grams</b> and <b>fuzzy matching</b> to boost claim document classification <b>accuracy by 9%</b> over legacy image-based models, cutting inference resource <b>cost by 80%</b>.</li>
                 </ul>
             </ExperienceBox>
             

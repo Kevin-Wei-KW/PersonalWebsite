@@ -16,12 +16,13 @@ export default function Education() {
                 </h1>
 
                 <h4>Bachelor's Degree in Computer Engineering</h4>
-                <h5>September 2022</h5>
+                <h5>September 2022 - Apr 2027</h5>
 
                 <div className="EducationInfo">
 
                     <ul>
                         <li>Named to <b>Dean's Honour List (4.0 GPA)</b></li>
+                        <li>ECE 350: Real-Time Operating Systems</li>
                         <li>ECE 252: Systems Programming and Concurrency</li>
                         <li>ECE 224: Embedded Microprocessor Systems</li>
                         <li>ECE 250: Algorithms and Data Structure</li>
